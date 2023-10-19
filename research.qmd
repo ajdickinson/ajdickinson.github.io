@@ -1,0 +1,51 @@
+---
+title: "research"
+toc: false
+---
+
+::: {.grid}
+
+::: {.g-col-lg-8 .g-col-md-4 .g-col-12}
+
+## In progress
+
+[PM Prediction]{.pub-header}  
+_with_ [Ed Rubin]{.author}
+
+_Abstract:_  
+
+> Empirical analyses often rely on coarse measurements of spatially continuous variables, leaving vast geographic areas unobserved. However, the proliferation of satellite technology and machine learning has ushered in the era of predictive maps, which provide high-resolution data filling such observational gaps. A crucial application of this approach pertains to the prediction of fine particulate matter (PM2.5) levels, a major environmental concern. Although comprehensive, current measurement networks have significant spatial gaps, particularly in diverse terrains where no direct observations exist. This study aims to refine the state-of-the-art PM2.5 prediction models. Leveraging terabytes of data, we employ two primary enhancements: implementing spatial cross-validation, ensuring geographically distinct training and validation datasets, and integrating the concept of the Area of Applicability (AOA), marking regions where model predictions can be reliably applied. Preliminary findings using boosted tree models demonstrate a significant drop in predictive performance when spatial cross-validation is applied, highlighting potential overstatements in previously reported model performances. This research aims to enhance the transparency and reliability of PM2.5 predictive models, with future directions including the exploration of advanced machine learning models and the application of AOA to identify reliable prediction zones.
+
+## Working papers
+
+[Productivity losses in the transition to Daylight Saving Time: Evidence from hourly GitHub activity]{.pub-header}  
+_with_ [Glen R. Waddell]{.author}
+
+_Abstract:_  
+
+> Using data on GitHub users around the world, we estimate the effects of transitions to Daylight Saving Time on worker activity. In daily activity, transitions appear short lived—there is evidence of two days of declines before activity returns to baseline levels. However, hourly analysis reveals a transition to Daylight Saving Time that is much longer—losses appear in the early working hours of work days for up-to-two weeks following the initiation of Daylight Saving Time.
+
+[`paper`](files/DickinsonWaddell_Daylight-Saving-Time-and-Productivity_CURRENT.pdf)
+
+## Published
+
+[The Effect of E-Verify Laws on Crime]{.pub-header}  
+_with_ Brandon Churchill, Taylor Mackay, and Joseph J. Sabia  
+_ILR Review_
+
+_Abstract:_  
+
+> E-Verify laws, which have been adopted by 23 states, require employers to verify whether new employees are eligible to legally work prior to employment. This study explores the impact of state E-Verify laws on crime. Using data from the 2004–2015 National Incident Based Reporting System, the authors find that the enactment of E-Verify is associated with a 7% reduction in property crime incidents involving Hispanic arrestees. This finding was strongest for universal E-Verify mandates that extend to private employers and its external validity bolstered by evidence from the Uniform Crime Reports. Supplemental analyses from the Current Population Survey suggest two mechanisms to explain this result: E-Verify-induced increases in the employment of low-skilled natives of Hispanic descent and out-migration of younger Hispanics. Findings show no evidence that arrests were displaced to nearby jurisdictions without E-Verify or that violent crime or arrests of African Americans were affected by E-Verify laws. The magnitudes of the estimates suggest that E-Verify laws averted $491 million in property crime costs to the United States.
+
+[`paper`](files/churchill_etal_ILR21.pdf)
+
+_Churchill, B. F., Dickinson, A., Mackay, T., & Sabia, J. J. (2022). The effect of e-verify laws on crime. ILR Review, 75(5), 1294-1320._
+
+:::
+
+::: {.g-col-lg-4 .g-col-md-4 .g-col-0}
+<!-- testing testing testing -->
+:::
+
+:::
+

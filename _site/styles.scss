@@ -1,0 +1,79 @@
+
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,500i,700,700i);
+@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans+Condensed:wght@300;400;600;700&family=Noto+Sans:wght@200;300;400;600;700&family=Raleway:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap);
+
+
+/*-- scss:defaults --*/
+
+// fonts
+$font-family-sans-serif: "Fira Sans", "Droid Serif", Palatino,
+  FreeSerif, serif !default;
+$font-family-monospace: "JetBrainsMono Nerd Font";
+$presentation-heading-font-weight: 400 !default;
+$presentation-font-size-root: 32px;
+$presentation-font-weight-root: 400;
+
+// colors
+// Colors
+$light-sage-green: #D1D9CE;
+$dark-sage-green: #98A08D;
+$cream: #FDFBF7;
+$gray: #64605f;
+$light-gray: #949799;
+$purple: #AE8BD1;
+
+// Standard
+$white: #fff;
+
+// Nord theme (https://www.nordtheme.com/)
+// Write description
+
+  // Polar night
+  $polar-night-1: #2E3440;
+  $polar-night-2: #2E3440;
+  $polar-night-3: #2E3440;
+  $polar-night-4: #2E3440;
+
+  // Snow storm
+  $snow-storm-1: #D8DEE9;
+  $snow-storm-2: #E5E9F0;
+  $snow-storm-3: #ECEFF4;
+
+  // Frost
+  $frost-1: #8FBCBB;
+  $frost-2: #88C0D0;
+  $frost-3: #81A1C1;
+  $frost-4: #5E81AC;
+
+  // Aurora
+  $red: #BF616A;
+  $orange: #D08770;
+  $yellow: #EBCB8B;
+  $green: #A3BE8C;
+  $purple: #B48EAD;
+
+// Base document colors
+$navbar-bg: $white; // navbar
+$navbar-fg: $polar-night-1; // navbar foreground elements
+$navbar-hl: $frost-3; // highlight color when hovering over navbar links
+$body-bg: $white; // page background 
+$body-color: $polar-night-1; // page text 
+$footer-bg: $white; // footer 
+$link-color: $frost-3; // hyperlinks 
+
+// Inline code
+$code-bg: $white; // inline code background color
+$code-color: $polar-night-1; // inline code text color
+
+// Code blocks
+$code-block-bg: $polar-night-1; // code block background color
+
+
+/*-- scss:rules --*/
+
+.title {
+  font-family: Railway;
+  font-weight: 300;
+  color: #314f4f !important;
+}

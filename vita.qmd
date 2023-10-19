@@ -1,0 +1,105 @@
+---
+title: "cv"
+---
+
+[`pdf download`]()
+
+## Education
+
+Ph.D., Economics, University of Oregon (expected 2024)  
+M.Sc., Economics, University of Oregon (2021)  
+M.A., Economics, San Diego State University (2019)  
+B.A., Economics, San Diego State University (2017)  
+
+__Primary Interests:__ Environmental Economics, Data Science  
+__Secondary Interests:__ Health Economics, Labor Economics
+
+## Research
+
+#### Published
+
+- "The Effect of E-Verify Laws on Crime." With B. Churchill, T. Mackay, & J. Sabia. (2021). **Industrial Labor Relations Review**.
+
+#### Assistance Provided
+
+- "Have U.S. Gun Buyback Programs Misfired?". D. M. Anderson, T. Ferrazares, & J. Sabia. (2020). **National Bureau of Economic Research**, (No. w28763).
+- "Did the War on Terror Ignite an Opioid Epidemic?". R. Cesur, J. Sabia, & W. Bradford, (2019). **National Bureau of Economic Research**, (No. w26264).
+- "War! What is it Good For? The Effects of Combat Service on Economic Transitions of Veterans." J. Sabia & W. Skimmyhorn, (2018). **Economic Self-Sufficiency Policy Research Institute**, (No. 20181).
+
+## Experience
+
+- **Graduate Employee**, Eugene, OR | *Sept 2019 - present*
+  - *Economics Department at the University of Oregon*
+    - Received high student evaluations for teaching effectiveness and student support as a solo instructor of elective courses in economics.
+    - Developed R programming notes and reference materials for a graduate-level econometrics lab sections as a teaching assistant.
+    - Led live R coding instruction to undergraduate and graduate students including topics such as ML using tidymodels and geospatial data analysis using sf.
+- **Research Assistant**, San Diego, CA | *Aug 2017 - present*
+  - *Center for Health Economics & Policy Studies at San Diego State University*
+    - Cleaned large, complex data sets and estimated econometric models.
+    - Developed detail-oriented workflow habits.
+    - Coauthored a published research article.
+
+## Awards
+
+- Core Exam Completion Award (2020)
+- Graduate Teaching Fellowship (2019 - present)
+- McCuen Endowed Economics Scholarship (2017, 2018)
+- Center for Public Economics Paper Award (2018)
+
+## Activities
+
+- Presenter at Western Economic Association International Conference (2019), Association for Public Policy and Management (2018) [poster session]
+- Attendee at Eastern Economics Association conference (2018), Economic Self-Sufficiency Policy Research Institute Workshop (2017)
+- Editor for Undergraduate Research Journal of the College of Arts and Letters (2016)
+- Referee for Economic Inquiry (2022)
+
+## Software
+
+__Computing:__ R, SQL, (some) python, bash/unix, git, QGIS, Stata, SAS
+
+__Design:__ LaTex, markdown, quarto
+
+## References
+
+:::: {.columns}
+
+::: {.column width="50%"}
+[Glen R. Waddell]{.hi}  
+Professor of Economics  
+University of Oregon  
+IZA Research Fellow  
+glenwaddell.com  
+
+
+Ed Rubin  
+Assistant Professor  
+University of Oregon  
+edrub.in  
+
+:::
+
+::: {.column width="50%"}
+Grant Mcdermott  
+Principal Economist  
+Amazon  
+
+
+:::
+
+::::
+
+
+
+## Contact
+**Address:**  
+Department of Economics  
+Prince Lucian Campbell Hall  
+1285 University of Oregon  
+Eugene, OR 97403-1285  
+
+
+**Email:** adickin3 ampersat uoregon at edu  
+
+
+**Github:** ajdickinson  
+

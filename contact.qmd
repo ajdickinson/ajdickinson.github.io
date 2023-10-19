@@ -1,0 +1,17 @@
+---
+title: "contact"
+---
+
+Email: adickin3 ampersat uoregon period edu
+
+```{R}
+#| echo: false
+#| out-width: "90%"
+pacman::p_load(leaflet, leaflet.extras)
+
+leaflet() %>%
+  addMarkers(lng = -123.0805256, lat = 44.0442725, popup = "Me") %>%
+  setView(lng = -123.06, lat = 44.05, zoom = 12) %>%
+  addProviderTiles(providers$CartoDB.Positron)
+
+```

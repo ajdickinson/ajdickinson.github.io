@@ -1,0 +1,52 @@
+---
+title: "teaching"
+toc: false
+---
+
+::: {.grid}
+
+::: {.g-col-lg-9 .g-col-md-3 .g-col-12}
+[EC 320: Introduction to Econometrics I]{.class-header}  
+University of Oregon  <br>
+_Description:_ This course introduces statistical techniques that economists use to test economic theories and to estimate the relationships between economic variables. Econometrics combines economics, mathematics, and statistics with data to analyze and measure economic phenomena. In this class, we will focus our attention on regression analysis–the workhorse of applied econometrics. Using calculus and introductory statistics, we will cultivate a working understanding of the theory underpinning regression analysis, emphasizing the assumptions we must make to make causal statements. Statistical programming is fundamental to practicing applied econometrics. Thus we will teach the statistical programming language R to apply insights from theory and learn how to work with data. To the extent that you invest the requisite time and effort, you can leave this course with marketable skills in data analysis and—most importantly—a more sophisticated understanding of the notion that correlation does not necessarily imply causation. <br>
+
+GitHub repos: [Spring 2023](https://github.com/ajdickinson/EC320S23), _Spring 2024_ <br>
+
+<br>
+
+[EC 330: Urban and Regional Economic Problems]{.class-header} <br>
+University of Oregon  <br>
+_Description:_ Economics is all about people and incentives. Urban economics is about people, incentives, and their location choices. This course will probe a broad array of topics related to phenomena that arise from cities. We will begin by analyzing basic economic principles that describe the existence of cities. The first half of the course will introduce students to various models and theories commonly used in urban economics. Equipped with these tools, we will cover intra- and intercity topics such as inequality, transportation, growth, and environmental issues. Students will be introduced to cornerstone models, theories, and practices in the field. <br>
+
+GitHub repos: [Summer 2021](https://github.com/ajdickinson/EC330Su21), [Fall 2021](https://ajdickinson.github.io/EC330F21/), [Fall 2022](https://ajdickinson.github.io/EC330F22) <br>
+
+<br>
+<br>
+<br>
+
+## Teaching Assistant
+
+[EC 425/525: Econometrics:]{.class-header} Spring 2021 <br>
+
+[EC 424/524: Masters Econometrics: Machine Learning and Prediction:]{.class-header} [Winter 2022](https://github.com/edrubin/EC524W22) <br>
+
+[EC 421: Introduction to Econometrics II:]{.class-header} Fall 2020, Spring 2021, [Fall 2023](https://github.com/ajdickinson/EC421F23_lab) <br>
+
+[EC 330: Urban and Regional Economic Problems:]{.class-header} Spring 2022 <br>
+
+[EC 311: Intermediate Microeconomic Theory:]{.class-header} Spring 2021: Spring 2020
+
+[EC 202: Introduction to Economic Analysis: Macroeconomics :]{.class-header} Winter 2020 <br>
+
+[EC 201: Introduction to Economic Analysis: Microeconomics:]{.class-header} Winter 2021, Winter 2022 <br>
+
+[EC 101: Contemporary Economic Issues:]{.class-header} Fall 2019 <br>
+
+:::
+
+::: {.g-col-lg-3 .g-col-md-3 .g-col-0}
+
+:::
+:::
+
+
