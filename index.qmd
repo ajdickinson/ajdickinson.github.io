@@ -35,23 +35,3 @@ I will receive my PhD in Economics from the University of Oregon in June 2024. I
 [Email:]{.h} adickin3 _ampersat_ uoregon _period_ edu
 
 
-
-<!-- Safer saying these are toolkits and these I am tooled up. Can't say that. They don't want someone who will do whatever you want--I am busy doing something interesting. They want to convert me to theirs and are willing to pay me to do that. Totally tooled up. If I haven't done what they do, I am obviously something capable of learning. interested and engaged in the world. 
-
-Environmental is second order. Maybe a little {{< 
-It has to read, 'yeah he looks like a junior version of ed and glen. ' >}} -->
-
-<!-- 
-::: {.about-me}
-
-# [Economics PhD Candidate [arrow_forward_ios]{.material-icons} University of Oregon]{.subtitle} 
-
-[_On the market 2024_]{.note}
-
-## Welcome
-
-I’m a 5th year doctoral student at the University of Oregon and am actively seeking opportunities for the 2023-2024 job market cycle.
-
-I am an applied microeconometrician and data scientist. My research interests are spread equally between causal inference and prediction. I use cutting-edge data science techniques and creative data sources to make new contributions to economic questions at the cross section of environmental, health, and labor economics. When I am away from my desk, you may find me outside climbing, hiking, or backpacking throughout the Pacific Northwest.
-
-::: -->
