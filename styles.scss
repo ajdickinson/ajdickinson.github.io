@@ -1,9 +1,11 @@
 /*-- scss:defaults --*/
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans+Condensed:wght@300;400;600;700&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+// Import fonts (define mainfont in _quarto.yml)
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 // fonts
-$font-family-sans-serif: "Fira Sans Extra Condensed", "Droid Serif", Palatino,
-  FreeSerif, serif !default;
+$font-family-sans-serif: "Fira Sans Extra Condensed Thin", "Droid Serif", Palatino, FreeSerif, serif !default;
 $font-family-monospace: "JetBrainsMono Nerd Font";
 $presentation-heading-font-weight: 400;
 $presentation-font-size-root: 24px;
@@ -12,43 +14,34 @@ $presentation-font-weight-root: 400;
 // font size
 $title-size: 28pt;
 
-
 // colors
-$light-sage-green: #D1D9CE;
-$dark-sage-green: #98A08D;
-$cream: #FDFBF7;
-$gray: #64605f;
-$light-gray: #949799;
-$purple: #AE8BD1;
+  // Standard
+  $white: #fff;
 
-// Standard
-$white: #fff;
+  // Nord theme (https://www.nordtheme.com/)
+    // Polar night
+    $polar-night-1: #2E3440;
+    $polar-night-2: #2E3440;
+    $polar-night-3: #2E3440;
+    $polar-night-4: #2E3440;
 
-// Nord theme (https://www.nordtheme.com/)
+    // Snow storm
+    $snow-storm-1: #D8DEE9;
+    $snow-storm-2: #E5E9F0;
+    $snow-storm-3: #ECEFF4;
 
-  // Polar night
-  $polar-night-1: #2E3440;
-  $polar-night-2: #2E3440;
-  $polar-night-3: #2E3440;
-  $polar-night-4: #2E3440;
+    // Frost
+    $frost-1: #8FBCBB;
+    $frost-2: #88C0D0;
+    $frost-3: #81A1C1;
+    $frost-4: #5E81AC;
 
-  // Snow storm
-  $snow-storm-1: #D8DEE9;
-  $snow-storm-2: #E5E9F0;
-  $snow-storm-3: #ECEFF4;
-
-  // Frost
-  $frost-1: #8FBCBB;
-  $frost-2: #88C0D0;
-  $frost-3: #81A1C1;
-  $frost-4: #5E81AC;
-
-  // Aurora
-  $red: #BF616A;
-  $orange: #D08770;
-  $yellow: #EBCB8B;
-  $green: #A3BE8C;
-  $purple: #B48EAD;
+    // Aurora
+    $red: #BF616A;
+    $orange: #D08770;
+    $yellow: #EBCB8B;
+    $green: #A3BE8C;
+    $purple: #B48EAD;
 
 // Base document colors
 $navbar-bg: $white; // navbar
@@ -69,8 +62,6 @@ $code-block-bg: $polar-night-1; // code block background color
 
 
 /*-- scss:rules --*/
-
-
 .quarto-about-trestles img {
   width: 30%;
   margin-right: 0%;
