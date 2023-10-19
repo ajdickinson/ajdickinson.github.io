@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "bio.html",
+    "href": "bio.html",
+    "title": "bio",
+    "section": "",
+    "text": "About this site. test"
+  },
+  {
+    "objectID": "vita.html",
+    "href": "vita.html",
+    "title": "cv",
+    "section": "",
+    "text": "pdf download"
+  },
+  {
+    "objectID": "vita.html#education",
+    "href": "vita.html#education",
+    "title": "cv",
+    "section": "Education",
+    "text": "Education\nPh.D., Economics, University of Oregon (expected 2024)\nM.Sc., Economics, University of Oregon (2021)\nM.A., Economics, San Diego State University (2019)\nB.A., Economics, San Diego State University (2017)\nPrimary Interests: Environmental Economics, Data Science\nSecondary Interests: Health Economics, Labor Economics"
+  },
+  {
+    "objectID": "vita.html#research",
+    "href": "vita.html#research",
+    "title": "cv",
+    "section": "Research",
+    "text": "Research\n\nPublished\n\n“The Effect of E-Verify Laws on Crime.” With B. Churchill, T. Mackay, & J. Sabia. (2021). Industrial Labor Relations Review.\n\n\n\nAssistance Provided\n\n“Have U.S. Gun Buyback Programs Misfired?”. D. M. Anderson, T. Ferrazares, & J. Sabia. (2020). National Bureau of Economic Research, (No. w28763).\n“Did the War on Terror Ignite an Opioid Epidemic?”. R. Cesur, J. Sabia, & W. Bradford, (2019). National Bureau of Economic Research, (No. w26264).\n“War! What is it Good For? The Effects of Combat Service on Economic Transitions of Veterans.” J. Sabia & W. Skimmyhorn, (2018). Economic Self-Sufficiency Policy Research Institute, (No. 20181)."
+  },
+  {
+    "objectID": "vita.html#experience",
+    "href": "vita.html#experience",
+    "title": "cv",
+    "section": "Experience",
+    "text": "Experience\n\nGraduate Employee, Eugene, OR | Sept 2019 - present\n\nEconomics Department at the University of Oregon\n\nReceived high student evaluations for teaching effectiveness and student support as a solo instructor of elective courses in economics.\nDeveloped R programming notes and reference materials for a graduate-level econometrics lab sections as a teaching assistant.\nLed live R coding instruction to undergraduate and graduate students including topics such as ML using tidymodels and geospatial data analysis using sf.\n\n\nResearch Assistant, San Diego, CA | Aug 2017 - present\n\nCenter for Health Economics & Policy Studies at San Diego State University\n\nCleaned large, complex data sets and estimated econometric models.\nDeveloped detail-oriented workflow habits.\nCoauthored a published research article."
+  },
+  {
+    "objectID": "vita.html#awards",
+    "href": "vita.html#awards",
+    "title": "cv",
+    "section": "Awards",
+    "text": "Awards\n\nCore Exam Completion Award (2020)\nGraduate Teaching Fellowship (2019 - present)\nMcCuen Endowed Economics Scholarship (2017, 2018)\nCenter for Public Economics Paper Award (2018)"
+  },
+  {
+    "objectID": "vita.html#activities",
+    "href": "vita.html#activities",
+    "title": "cv",
+    "section": "Activities",
+    "text": "Activities\n\nPresenter at Western Economic Association International Conference (2019), Association for Public Policy and Management (2018) [poster session]\nAttendee at Eastern Economics Association conference (2018), Economic Self-Sufficiency Policy Research Institute Workshop (2017)\nEditor for Undergraduate Research Journal of the College of Arts and Letters (2016)\nReferee for Economic Inquiry (2022)"
+  },
+  {
+    "objectID": "vita.html#software",
+    "href": "vita.html#software",
+    "title": "cv",
+    "section": "Software",
+    "text": "Software\nComputing: R, SQL, (some) python, bash/unix, git, QGIS, Stata, SAS\nDesign: LaTex, markdown, quarto"
+  },
+  {
+    "objectID": "vita.html#references",
+    "href": "vita.html#references",
+    "title": "cv",
+    "section": "References",
+    "text": "References\n\n\nGlen R. Waddell\nProfessor of Economics\nUniversity of Oregon\nIZA Research Fellow\nglenwaddell.com\nEd Rubin\nAssistant Professor\nUniversity of Oregon\nedrub.in\n\nGrant Mcdermott\nPrincipal Economist\nAmazon"
+  },
+  {
+    "objectID": "vita.html#contact",
+    "href": "vita.html#contact",
+    "title": "cv",
+    "section": "Contact",
+    "text": "Contact\nAddress:\nDepartment of Economics\nPrince Lucian Campbell Hall\n1285 University of Oregon\nEugene, OR 97403-1285\nEmail: adickin3 ampersat uoregon at edu\nGithub: ajdickinson"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "contact",
+    "section": "",
+    "text": "Email: adickin3 ampersat uoregon period edu"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "teaching",
+    "section": "",
+    "text": "EC 320: Introduction to Econometrics I\nUniversity of Oregon  Description: This course introduces statistical techniques that economists use to test economic theories and to estimate the relationships between economic variables. Econometrics combines economics, mathematics, and statistics with data to analyze and measure economic phenomena. In this class, we will focus our attention on regression analysis–the workhorse of applied econometrics. Using calculus and introductory statistics, we will cultivate a working understanding of the theory underpinning regression analysis, emphasizing the assumptions we must make to make causal statements. Statistical programming is fundamental to practicing applied econometrics. Thus we will teach the statistical programming language R to apply insights from theory and learn how to work with data. To the extent that you invest the requisite time and effort, you can leave this course with marketable skills in data analysis and—most importantly—a more sophisticated understanding of the notion that correlation does not necessarily imply causation. \nGitHub repos: Spring 2023, Spring 2024 \n\nEC 330: Urban and Regional Economic Problems  University of Oregon  Description: Economics is all about people and incentives. Urban economics is about people, incentives, and their location choices. This course will probe a broad array of topics related to phenomena that arise from cities. We will begin by analyzing basic economic principles that describe the existence of cities. The first half of the course will introduce students to various models and theories commonly used in urban economics. Equipped with these tools, we will cover intra- and intercity topics such as inequality, transportation, growth, and environmental issues. Students will be introduced to cornerstone models, theories, and practices in the field. \nGitHub repos: Summer 2021, Fall 2021, Fall 2022 \n  \n\n\nEC 425/525: Econometrics: Spring 2021 \nEC 424/524: Masters Econometrics: Machine Learning and Prediction: Winter 2022 \nEC 421: Introduction to Econometrics II: Fall 2020, Spring 2021, Fall 2023 \nEC 330: Urban and Regional Economic Problems: Spring 2022 \nEC 311: Intermediate Microeconomic Theory: Spring 2021: Spring 2020\nEC 202: Introduction to Economic Analysis: Macroeconomics : Winter 2020 \nEC 201: Introduction to Economic Analysis: Microeconomics: Winter 2021, Winter 2022 \nEC 101: Contemporary Economic Issues: Fall 2019"
+  },
+  {
+    "objectID": "teaching.html#teaching-assistant",
+    "href": "teaching.html#teaching-assistant",
+    "title": "teaching",
+    "section": "",
+    "text": "EC 425/525: Econometrics: Spring 2021 \nEC 424/524: Masters Econometrics: Machine Learning and Prediction: Winter 2022 \nEC 421: Introduction to Econometrics II: Fall 2020, Spring 2021, Fall 2023 \nEC 330: Urban and Regional Economic Problems: Spring 2022 \nEC 311: Intermediate Microeconomic Theory: Spring 2021: Spring 2020\nEC 202: Introduction to Economic Analysis: Macroeconomics : Winter 2020 \nEC 201: Introduction to Economic Analysis: Microeconomics: Winter 2021, Winter 2022 \nEC 101: Contemporary Economic Issues: Fall 2019"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "research",
+    "section": "",
+    "text": "PM Prediction\nwith Ed Rubin\nAbstract:\n\nEmpirical analyses often rely on coarse measurements of spatially continuous variables, leaving vast geographic areas unobserved. However, the proliferation of satellite technology and machine learning has ushered in the era of predictive maps, which provide high-resolution data filling such observational gaps. A crucial application of this approach pertains to the prediction of fine particulate matter (PM2.5) levels, a major environmental concern. Although comprehensive, current measurement networks have significant spatial gaps, particularly in diverse terrains where no direct observations exist. This study aims to refine the state-of-the-art PM2.5 prediction models. Leveraging terabytes of data, we employ two primary enhancements: implementing spatial cross-validation, ensuring geographically distinct training and validation datasets, and integrating the concept of the Area of Applicability (AOA), marking regions where model predictions can be reliably applied. Preliminary findings using boosted tree models demonstrate a significant drop in predictive performance when spatial cross-validation is applied, highlighting potential overstatements in previously reported model performances. This research aims to enhance the transparency and reliability of PM2.5 predictive models, with future directions including the exploration of advanced machine learning models and the application of AOA to identify reliable prediction zones.\n\n\n\n\nProductivity losses in the transition to Daylight Saving Time: Evidence from hourly GitHub activity\nwith Glen R. Waddell\nAbstract:\n\nUsing data on GitHub users around the world, we estimate the effects of transitions to Daylight Saving Time on worker activity. In daily activity, transitions appear short lived—there is evidence of two days of declines before activity returns to baseline levels. However, hourly analysis reveals a transition to Daylight Saving Time that is much longer—losses appear in the early working hours of work days for up-to-two weeks following the initiation of Daylight Saving Time.\n\npaper\n\n\n\nThe Effect of E-Verify Laws on Crime\nwith Brandon Churchill, Taylor Mackay, and Joseph J. Sabia\nILR Review\nAbstract:\n\nE-Verify laws, which have been adopted by 23 states, require employers to verify whether new employees are eligible to legally work prior to employment. This study explores the impact of state E-Verify laws on crime. Using data from the 2004–2015 National Incident Based Reporting System, the authors find that the enactment of E-Verify is associated with a 7% reduction in property crime incidents involving Hispanic arrestees. This finding was strongest for universal E-Verify mandates that extend to private employers and its external validity bolstered by evidence from the Uniform Crime Reports. Supplemental analyses from the Current Population Survey suggest two mechanisms to explain this result: E-Verify-induced increases in the employment of low-skilled natives of Hispanic descent and out-migration of younger Hispanics. Findings show no evidence that arrests were displaced to nearby jurisdictions without E-Verify or that violent crime or arrests of African Americans were affected by E-Verify laws. The magnitudes of the estimates suggest that E-Verify laws averted $491 million in property crime costs to the United States.\n\npaper\nChurchill, B. F., Dickinson, A., Mackay, T., & Sabia, J. J. (2022). The effect of e-verify laws on crime. ILR Review, 75(5), 1294-1320."
+  },
+  {
+    "objectID": "research.html#in-progress",
+    "href": "research.html#in-progress",
+    "title": "research",
+    "section": "",
+    "text": "PM Prediction\nwith Ed Rubin\nAbstract:\n\nEmpirical analyses often rely on coarse measurements of spatially continuous variables, leaving vast geographic areas unobserved. However, the proliferation of satellite technology and machine learning has ushered in the era of predictive maps, which provide high-resolution data filling such observational gaps. A crucial application of this approach pertains to the prediction of fine particulate matter (PM2.5) levels, a major environmental concern. Although comprehensive, current measurement networks have significant spatial gaps, particularly in diverse terrains where no direct observations exist. This study aims to refine the state-of-the-art PM2.5 prediction models. Leveraging terabytes of data, we employ two primary enhancements: implementing spatial cross-validation, ensuring geographically distinct training and validation datasets, and integrating the concept of the Area of Applicability (AOA), marking regions where model predictions can be reliably applied. Preliminary findings using boosted tree models demonstrate a significant drop in predictive performance when spatial cross-validation is applied, highlighting potential overstatements in previously reported model performances. This research aims to enhance the transparency and reliability of PM2.5 predictive models, with future directions including the exploration of advanced machine learning models and the application of AOA to identify reliable prediction zones."
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "research",
+    "section": "",
+    "text": "Productivity losses in the transition to Daylight Saving Time: Evidence from hourly GitHub activity\nwith Glen R. Waddell\nAbstract:\n\nUsing data on GitHub users around the world, we estimate the effects of transitions to Daylight Saving Time on worker activity. In daily activity, transitions appear short lived—there is evidence of two days of declines before activity returns to baseline levels. However, hourly analysis reveals a transition to Daylight Saving Time that is much longer—losses appear in the early working hours of work days for up-to-two weeks following the initiation of Daylight Saving Time.\n\npaper"
+  },
+  {
+    "objectID": "research.html#published",
+    "href": "research.html#published",
+    "title": "research",
+    "section": "",
+    "text": "The Effect of E-Verify Laws on Crime\nwith Brandon Churchill, Taylor Mackay, and Joseph J. Sabia\nILR Review\nAbstract:\n\nE-Verify laws, which have been adopted by 23 states, require employers to verify whether new employees are eligible to legally work prior to employment. This study explores the impact of state E-Verify laws on crime. Using data from the 2004–2015 National Incident Based Reporting System, the authors find that the enactment of E-Verify is associated with a 7% reduction in property crime incidents involving Hispanic arrestees. This finding was strongest for universal E-Verify mandates that extend to private employers and its external validity bolstered by evidence from the Uniform Crime Reports. Supplemental analyses from the Current Population Survey suggest two mechanisms to explain this result: E-Verify-induced increases in the employment of low-skilled natives of Hispanic descent and out-migration of younger Hispanics. Findings show no evidence that arrests were displaced to nearby jurisdictions without E-Verify or that violent crime or arrests of African Americans were affected by E-Verify laws. The magnitudes of the estimates suggest that E-Verify laws averted $491 million in property crime costs to the United States.\n\npaper\nChurchill, B. F., Dickinson, A., Mackay, T., & Sabia, J. J. (2022). The effect of e-verify laws on crime. ILR Review, 75(5), 1294-1320."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Economist | Data Scientist",
+    "section": "",
+    "text": "Economist | Data Scientist\nI am an applied microeconomist, employing econometric and data science tools to address problems in environmental, health, and labor economics practicing both causal inference and machine learning techniques. When I am away from my desk, you may find me running, biking, bouldering, or spending time enjoying the outdoors.\nI will receive my PhD in Economics from the University of Oregon in June 2024. I will be participating in the 2024 ASSA job market, so I can be available to discuss my fit with your open position\n[CV]\n\n\n\n\n\nEmail: adickin3 ampersat uoregon period edu"
+  }
+]
