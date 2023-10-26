@@ -44,7 +44,7 @@ format:
     theme: 
       - styles.scss
     toc: true
-    mainfont: 'FiraSansExtraCondensed-ExtraLight'
+    # mainfont: Fira Sans Extra Condensed ExtraLight
     # monofont: Fira Code
     monofont: JetBrains Mono
     linkcolor: "#81A1C1"
