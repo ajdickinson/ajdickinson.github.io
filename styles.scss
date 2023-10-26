@@ -63,6 +63,13 @@ $code-block-bg: $polar-night-1; // code block background color
 
 
 /*-- scss:rules --*/
+
+// Fonts
+@font-face {
+  font-family: 'Fira Sans Extra Condensed';
+  // src: url('https://raw.githubusercontent.com/ajdickinson/ajdickinson.github.io/master/fonts/FiraSansExtraCondensed.ttf') format('truetype');
+}
+
 .quarto-about-trestles img {
   width: 30%;
   margin-right: 0%;
@@ -276,7 +283,7 @@ h1.title {
   font-weight: 500;
 }
 .pseudocode, .pseudocode-small {
-  font-family: 'Fira Code';
+  font-family: 'JetBrains Mono';
   background: #f8f8f8;
   border-radius: 3px;
   padding: 10px;
