@@ -5,7 +5,7 @@ about:
   template: trestles
   # image: images/headshot.png
   image: images/headshots/IMG_36.jpg
-  image-width: 19em
+  image-width: 25em
 #   image-shape: rounded
 
 ---
