@@ -45,6 +45,7 @@ format:
       - styles.scss
     toc: true
     # mainfont: Fira Sans Extra Condensed ExtraLight
+    mainfont: Nunito
     # monofont: Fira Code
     monofont: JetBrains Mono
     linkcolor: "#81A1C1"
