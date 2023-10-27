@@ -44,9 +44,9 @@ format:
     theme: 
       - styles.scss
     toc: true
-    mainfont: 'Fira Sans Extra Condensed ExtraLight'
+    mainfont: Fira Sans Extra Condensed ExtraLight
     # monofont: Fira Code
-    monofont: 'JetBrains Mono'
+    monofont: JetBrains Mono
     linkcolor: "#81A1C1"
     text-align: 'left'
    
