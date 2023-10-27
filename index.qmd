@@ -15,14 +15,14 @@ about:
 ::: {.g-col-lg-9 .g-col-md-9 .g-col-12}
 # Economist  | Data Scientist 
 
-::: {.pi}
+<!-- ::: {.pi} -->
 I am an applied microeconomist, employing econometric and data science tools to address problems in environmental, health, and labor economics practicing both causal inference and machine learning techniques. When I am away from my desk, you may find me running, biking, bouldering, or spending time enjoying the outdoors.
 
 I will receive my PhD in Economics from the University of Oregon in June 2024. I will be participating in the 2024 ASSA job market, so I can be available to discuss my fit with your open position
 
 
 [[CV](vita.qmd)]
-:::
+<!-- ::: -->
 
 
 :::

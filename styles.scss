@@ -7,10 +7,7 @@
 // fonts
 $font-family-sans-serif: 'Fira Sans Extra Condensed', Helvetica Neue, Arial, sans-serif !default;
 // $font-family-monospace: 'JetBrains Mono', 'Courier New', monospace !default;
-// $headings-font-weight:  300 !default;
-$headings-font-weight: 300;
-// $presentation-font-size-root: 24px;
-// $presentation-font-weight-root: 400;
+$root-font-weight: 300; 
 
 // font size
 $title-size: 28pt;
@@ -64,13 +61,16 @@ $code-block-bg: $polar-night-1; // code block background color
 
 /*-- scss:rules --*/
 
-// Fonts
-// @font-face {
-//   font-family: 'FiraSansExtraCondensed-ExtraLight';
-//   src: url('fonts/FiraSansExtraCondensed-ExtraLight.ttf') format('ttf');
-//   // font-weight: normal;
-//   // font-style: normal;
-// }
+
+
+body {
+  font-weight: $root-font-weight;  // Use the variable
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $root-font-weight;  // Use the variable
+}
+
 
 .quarto-about-trestles img {
   width: 30%;
