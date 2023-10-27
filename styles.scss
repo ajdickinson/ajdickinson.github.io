@@ -263,22 +263,21 @@ h1.title {
   text-transform: uppercase;
 }
 
-.class-header {
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-weight: 600;
-  color: $polar-night-4
-}
-.pub-header {
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-weight: 600;
-  // font-size: 16pt;
-  color: $polar-night-4
-}
-
 
 // .note h1 {
 //   font-family: 'Zilla Slab' !important;
 // }
+.class-header {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-weight: 400;
+  color: $polar-night-4
+}
+.pub-header {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-weight: 400;
+  // font-size: 16pt;
+  color: $polar-night-4
+}
 .ex {
   color: #ccc !important;
   font-style: italic;
