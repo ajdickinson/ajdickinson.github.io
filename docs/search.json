@@ -53,14 +53,14 @@
     "href": "vita.html#software",
     "title": "cv",
     "section": "Software",
-    "text": "Software\nComputing: R, SQL, (some) python, bash/unix, git, QGIS, Stata, SAS\nDesign: LaTex, markdown, quarto"
+    "text": "Software\nComputing: R, SQL, (some) python, bash/unix, git, QGIS, Stata, SAS\nDesign: Markdown, Quarto, \\(\\LaTeX\\), CSS"
   },
   {
     "objectID": "vita.html#references",
     "href": "vita.html#references",
     "title": "cv",
     "section": "References",
-    "text": "References\n\n\nGlen R. Waddell\nProfessor of Economics\nUniversity of Oregon\nIZA Research Fellow\nglenwaddell.com\nEd Rubin\nAssistant Professor\nUniversity of Oregon\nedrub.in\n\nGrant Mcdermott\nPrincipal Economist\nAmazon"
+    "text": "References\n\n\nGlen R. Waddell\nProfessor\nDepartment of Economics\nUniversity of Oregon\nIZA Research Fellow\nglenwaddell.com\nEd Rubin\nAssistant Professor\nDepartment of Economics\nUniversity of Oregon\nedrub.in\n\nGrant Mcdermott\nPrincipal Economist\nAmazon\ngrantmcdermott.com\n\nHenry Luan Assistant Professor\nDepartment of Geography\nUniversity of Oregon\nh3luan.github.io"
   },
   {
     "objectID": "vita.html#contact",

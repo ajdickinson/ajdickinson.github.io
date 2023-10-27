@@ -32,7 +32,7 @@ __Secondary Interests:__ Health Economics, Labor Economics
   - *Economics Department at the University of Oregon*
     - Received high student evaluations for teaching effectiveness and student support as a solo instructor of elective courses in economics.
     - Developed R programming notes and reference materials for a graduate-level econometrics lab sections as a teaching assistant.
-    - Led live R coding instruction to undergraduate and graduate students including topics such as ML using tidymodels and geospatial data analysis using sf.
+    - Led live R coding instruction to undergraduate and graduate students including topics such as ML using [`tidymodels`](https://tidymodels.org/) and geospatial data analysis using [`sf`](https://r-spatial.github.io/sf/).
 - **Research Assistant**, San Diego, CA | *Aug 2017 - present*
   - *Center for Health Economics & Policy Studies at San Diego State University*
     - Cleaned large, complex data sets and estimated econometric models.
@@ -57,31 +57,42 @@ __Secondary Interests:__ Health Economics, Labor Economics
 
 __Computing:__ R, SQL, (some) python, bash/unix, git, QGIS, Stata, SAS
 
-__Design:__ LaTex, markdown, quarto
+__Design:__ Markdown, Quarto, $\LaTeX$, CSS
 
 ## References
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-[Glen R. Waddell]{.hi}  
-Professor of Economics  
+__Glen R. Waddell__  
+Professor  
+Department of Economics  
 University of Oregon  
 IZA Research Fellow  
-glenwaddell.com  
+[glenwaddell.com](https://glenwaddell.com)
 
 
-Ed Rubin  
+__Ed Rubin__  
 Assistant Professor  
+Department of Economics  
 University of Oregon  
-edrub.in  
+[edrub.in](https://edrub.in)
 
 :::
 
 ::: {.column width="50%"}
-Grant Mcdermott  
+__Grant Mcdermott__  
 Principal Economist  
 Amazon  
+[grantmcdermott.com](https://grantmcdermott.com/)
+
+<br>
+
+__Henry Luan__
+Assistant Professor  
+Department of Geography  
+University of Oregon  
+[h3luan.github.io](https://h3luan.github.io/)
 
 
 :::
