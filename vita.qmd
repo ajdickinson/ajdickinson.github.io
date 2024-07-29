@@ -2,17 +2,18 @@
 title: "cv"
 ---
 
-[`pdf download`]()
+<!-- [`pdf download `]() -->
 
 ## Education
 
-Ph.D., Economics, University of Oregon (expected 2024)  
-M.Sc., Economics, University of Oregon (2021)  
+Ph.D., Economics, University of Oregon (expected 2025)  
+M.S., Economics, University of Oregon (2021)  
 M.A., Economics, San Diego State University (2019)  
 B.A., Economics, San Diego State University (2017)  
 
-__Primary Interests:__ Environmental Economics, Data Science  
-__Secondary Interests:__ Health Economics, Labor Economics
+__Primary Interests:__ Environmental Economics, Applied Econometrics, Labor Economics  
+__Secondary Interests:__ Health Economics, Crime, Development Economics  
+__Expertise__: Data Science, Causal Inference, ML, Geospatial Analysis, Data Visualization  
 
 ## Research
 
@@ -28,19 +29,46 @@ __Secondary Interests:__ Health Economics, Labor Economics
 
 ## Experience
 
-- **Graduate Employee**, Eugene, OR | *Sept 2019 - present*
-  - *Economics Department at the University of Oregon*
-    - Received high student evaluations for teaching effectiveness and student support as a solo instructor of elective courses in economics.
-    - Developed R programming notes and reference materials for a graduate-level econometrics lab sections as a teaching assistant.
-    - Led live R coding instruction to undergraduate and graduate students including topics such as ML using [`tidymodels`](https://tidymodels.org/) and geospatial data analysis using [`sf`](https://r-spatial.github.io/sf/).
-- **Research Assistant**, San Diego, CA | *Aug 2017 - present*
-  - *Center for Health Economics & Policy Studies at San Diego State University*
-    - Cleaned large, complex data sets and estimated econometric models.
-    - Developed detail-oriented workflow habits.
-    - Coauthored a published research article.
+- **Department of Economics, University of Oregon** | *Graduate Employee* 
+  - Taught courses on Econometrics and Urban Economics
+  - Led econometrics lab sessions with live programming instruction in R
+  - Produced R programming materials on causal analysis and machine learning for graduate students
+
+- **Prof. Alfredo Burlando**, | *Research Assistant*
+  - Estimated heterogenous treatment effects using causal machine learning on two RCT projects
+  - Programmed algorithm to conduct quantile-aggregated inference on ML proxy predictors of CATE
+  - Collaborated closely with interdisciplinary team to refine research methodologies
+
+- **Center for Health Economics & Policy Studies**, **San Diego State University** | _Research Assistant_
+  - Provided assistance on two NBER working papers _([w26264](https://www.nber.org/papers/w26264),
+            [w28763](https://www.nber.org/papers/w28763))_ and authored publication in 
+            [_ILRR_](https://journals.sagepub.com/doi/abs/10.1177/00197939211044449)
+  - Estimated staggered difference-in-differences, synthetic control, and event study designs
+  - Managed team of research assistants in project development with a detail-oriented workflow
+
+## Teaching
+##### _Instructor of record_
+
+[EC 320 -- Introduction to Econometrics I]{.class-header}  
+University of Oregon: [Spring 2023](https://github.com/ajdickinson/EC320S23), _Spring 2024_  
+
+
+[EC 330 -- Urban and Regional Economic Problems]{.class-header}  
+University of Oregon: [Summer 2021](https://github.com/ajdickinson/EC330Su21), [Fall 2021](https://ajdickinson.github.io/EC330F21/), [Fall 2022](https://ajdickinson.github.io/EC330F22)
+
+#### _Teaching assistant_
+
+EC 425/525 -- (Master's) Econometrics: Spring 2021  
+EC 424/524 -- (Master's) Econometrics (Machine Learning and Prediction): [Winter 2022](https://github.com/edrubin/EC524W22)  
+EC 421: (Undergraduate) Introduction to Econometrics II: Fall 2020, Spring 2021, [Fall 2023](https://github.com/ajdickinson/EC421F23_lab)  
+EC 330 -- (Undergraduate) Urban and Regional Economic Problems: Spring 2022  
+EC 311 -- (Undergraduate) Intermediate Microeconomic Theory: Spring 2021: Spring 2020  
+EC 202 -- (Undergraduate) Introduction to Economic Analysis: Macroeconomics: Winter 2020  
+EC 201 -- (Undergraduate) Introduction to Economic Analysis: Microeconomics: Winter 2021, Winter 2022  
+EC 101 -- (Undergraduate) Contemporary Economic Issues: Fall 2019  
 
 ## Awards
-
+- Kleinsorge Fellowship (2023)
 - Core Exam Completion Award (2020)
 - Graduate Teaching Fellowship (2019 - present)
 - McCuen Endowed Economics Scholarship (2017, 2018)
@@ -55,9 +83,9 @@ __Secondary Interests:__ Health Economics, Labor Economics
 
 ## Software
 
-__Computing:__ R, SQL, (some) python, bash/unix, git, QGIS, Stata, SAS
-
-__Design:__ Markdown, Quarto, $\LaTeX$, CSS
+__Computing__: R, SQL, Python, QGIS, Stata, SAS  
+__Workflow__: Bash/Unix, Git, Docker, DuckDB, GCP, AWS  
+__Design__: Markdown, Quarto, $\LaTeX$, CSS, Tableau  
 
 ## References
 

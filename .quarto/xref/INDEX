@@ -22,5 +22,12 @@
   },
   "404.qmd": {
     "404.html": "ef4277cf"
+  },
+  "resume.qmd": {
+    "resume.tex": "3bb93391"
+  },
+  "resume/resume.qmd": {
+    "resume.html": "f5639975",
+    "resume.tex": "8db9e88a"
   }
 }

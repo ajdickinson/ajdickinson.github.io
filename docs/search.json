@@ -11,14 +11,14 @@
     "href": "vita.html",
     "title": "cv",
     "section": "",
-    "text": "pdf download"
+    "text": "Ph.D., Economics, University of Oregon (expected 2025)\nM.S., Economics, University of Oregon (2021)\nM.A., Economics, San Diego State University (2019)\nB.A., Economics, San Diego State University (2017)\nPrimary Interests: Environmental Economics, Applied Econometrics, Labor Economics\nSecondary Interests: Health Economics, Crime, Development Economics\nExpertise: Data Science, Causal Inference, ML, Geospatial Analysis, Data Visualization"
   },
   {
     "objectID": "vita.html#education",
     "href": "vita.html#education",
     "title": "cv",
-    "section": "Education",
-    "text": "Education\nPh.D., Economics, University of Oregon (expected 2024)\nM.Sc., Economics, University of Oregon (2021)\nM.A., Economics, San Diego State University (2019)\nB.A., Economics, San Diego State University (2017)\nPrimary Interests: Environmental Economics, Data Science\nSecondary Interests: Health Economics, Labor Economics"
+    "section": "",
+    "text": "Ph.D., Economics, University of Oregon (expected 2025)\nM.S., Economics, University of Oregon (2021)\nM.A., Economics, San Diego State University (2019)\nB.A., Economics, San Diego State University (2017)\nPrimary Interests: Environmental Economics, Applied Econometrics, Labor Economics\nSecondary Interests: Health Economics, Crime, Development Economics\nExpertise: Data Science, Causal Inference, ML, Geospatial Analysis, Data Visualization"
   },
   {
     "objectID": "vita.html#research",
@@ -32,14 +32,21 @@
     "href": "vita.html#experience",
     "title": "cv",
     "section": "Experience",
-    "text": "Experience\n\nGraduate Employee, Eugene, OR | Sept 2019 - present\n\nEconomics Department at the University of Oregon\n\nReceived high student evaluations for teaching effectiveness and student support as a solo instructor of elective courses in economics.\nDeveloped R programming notes and reference materials for a graduate-level econometrics lab sections as a teaching assistant.\nLed live R coding instruction to undergraduate and graduate students including topics such as ML using tidymodels and geospatial data analysis using sf.\n\n\nResearch Assistant, San Diego, CA | Aug 2017 - present\n\nCenter for Health Economics & Policy Studies at San Diego State University\n\nCleaned large, complex data sets and estimated econometric models.\nDeveloped detail-oriented workflow habits.\nCoauthored a published research article."
+    "text": "Experience\n\nDepartment of Economics, University of Oregon | Graduate Employee\n\nTaught courses on Econometrics and Urban Economics\nLed econometrics lab sessions with live programming instruction in R\nProduced R programming materials on causal analysis and machine learning for graduate students\n\nProf. Alfredo Burlando, | Research Assistant\n\nEstimated heterogenous treatment effects using causal machine learning on two RCT projects\nProgrammed algorithm to conduct quantile-aggregated inference on ML proxy predictors of CATE\nCollaborated closely with interdisciplinary team to refine research methodologies\n\nCenter for Health Economics & Policy Studies, San Diego State University | Research Assistant\n\nProvided assistance on two NBER working papers (w26264, w28763) and authored publication in ILRR\nEstimated staggered difference-in-differences, synthetic control, and event study designs\nManaged team of research assistants in project development with a detail-oriented workflow"
+  },
+  {
+    "objectID": "vita.html#teaching",
+    "href": "vita.html#teaching",
+    "title": "cv",
+    "section": "Teaching",
+    "text": "Teaching\n\nInstructor of record\nEC 320 – Introduction to Econometrics I\nUniversity of Oregon: Spring 2023, Spring 2024\nEC 330 – Urban and Regional Economic Problems\nUniversity of Oregon: Summer 2021, Fall 2021, Fall 2022\n\n\nTeaching assistant\nEC 425/525 – (Master’s) Econometrics: Spring 2021\nEC 424/524 – (Master’s) Econometrics (Machine Learning and Prediction): Winter 2022\nEC 421: (Undergraduate) Introduction to Econometrics II: Fall 2020, Spring 2021, Fall 2023\nEC 330 – (Undergraduate) Urban and Regional Economic Problems: Spring 2022\nEC 311 – (Undergraduate) Intermediate Microeconomic Theory: Spring 2021: Spring 2020\nEC 202 – (Undergraduate) Introduction to Economic Analysis: Macroeconomics: Winter 2020\nEC 201 – (Undergraduate) Introduction to Economic Analysis: Microeconomics: Winter 2021, Winter 2022\nEC 101 – (Undergraduate) Contemporary Economic Issues: Fall 2019"
   },
   {
     "objectID": "vita.html#awards",
     "href": "vita.html#awards",
     "title": "cv",
     "section": "Awards",
-    "text": "Awards\n\nCore Exam Completion Award (2020)\nGraduate Teaching Fellowship (2019 - present)\nMcCuen Endowed Economics Scholarship (2017, 2018)\nCenter for Public Economics Paper Award (2018)"
+    "text": "Awards\n\nKleinsorge Fellowship (2023)\nCore Exam Completion Award (2020)\nGraduate Teaching Fellowship (2019 - present)\nMcCuen Endowed Economics Scholarship (2017, 2018)\nCenter for Public Economics Paper Award (2018)"
   },
   {
     "objectID": "vita.html#activities",
@@ -53,7 +60,7 @@
     "href": "vita.html#software",
     "title": "cv",
     "section": "Software",
-    "text": "Software\nComputing: R, SQL, (some) python, bash/unix, git, QGIS, Stata, SAS\nDesign: Markdown, Quarto, \\(\\LaTeX\\), CSS"
+    "text": "Software\nComputing: R, SQL, Python, QGIS, Stata, SAS\nWorkflow: Bash/Unix, Git, Docker, DuckDB, GCP, AWS\nDesign: Markdown, Quarto, \\(\\LaTeX\\), CSS, Tableau"
   },
   {
     "objectID": "vita.html#references",
@@ -81,14 +88,14 @@
     "href": "teaching.html",
     "title": "teaching",
     "section": "",
-    "text": "EC 320: Introduction to Econometrics I\nUniversity of Oregon  Description: This course introduces statistical techniques that economists use to test economic theories and to estimate the relationships between economic variables. Econometrics combines economics, mathematics, and statistics with data to analyze and measure economic phenomena. In this class, we will focus our attention on regression analysis–the workhorse of applied econometrics. Using calculus and introductory statistics, we will cultivate a working understanding of the theory underpinning regression analysis, emphasizing the assumptions we must make to make causal statements. Statistical programming is fundamental to practicing applied econometrics. Thus we will teach the statistical programming language R to apply insights from theory and learn how to work with data. To the extent that you invest the requisite time and effort, you can leave this course with marketable skills in data analysis and—most importantly—a more sophisticated understanding of the notion that correlation does not necessarily imply causation. \nGitHub repos: Spring 2023, Spring 2024 \n\nEC 330: Urban and Regional Economic Problems  University of Oregon  Description: Economics is all about people and incentives. Urban economics is about people, incentives, and their location choices. This course will probe a broad array of topics related to phenomena that arise from cities. We will begin by analyzing basic economic principles that describe the existence of cities. The first half of the course will introduce students to various models and theories commonly used in urban economics. Equipped with these tools, we will cover intra- and intercity topics such as inequality, transportation, growth, and environmental issues. Students will be introduced to cornerstone models, theories, and practices in the field. \nGitHub repos: Summer 2021, Fall 2021, Fall 2022 \n  \n\n\nEC 425/525: Econometrics: Spring 2021 \nEC 424/524: Masters Econometrics: Machine Learning and Prediction: Winter 2022 \nEC 421: Introduction to Econometrics II: Fall 2020, Spring 2021, Fall 2023 \nEC 330: Urban and Regional Economic Problems: Spring 2022 \nEC 311: Intermediate Microeconomic Theory: Spring 2021: Spring 2020\nEC 202: Introduction to Economic Analysis: Macroeconomics : Winter 2020 \nEC 201: Introduction to Economic Analysis: Microeconomics: Winter 2021, Winter 2022 \nEC 101: Contemporary Economic Issues: Fall 2019"
+    "text": "EC 320 – Introduction to Econometrics I\nUniversity of Oregon\nDescription: This course introduces statistical techniques that economists use to test economic theories and to estimate the relationships between economic variables. Econometrics combines economics, mathematics, and statistics with data to analyze and measure economic phenomena. In this class, we will focus our attention on regression analysis–the workhorse of applied econometrics. Using calculus and introductory statistics, we will cultivate a working understanding of the theory underpinning regression analysis, emphasizing the assumptions we must make to make causal statements. Statistical programming is fundamental to practicing applied econometrics. Thus we will teach the statistical programming language R to apply insights from theory and learn how to work with data. To the extent that you invest the requisite time and effort, you can leave this course with marketable skills in data analysis and—most importantly—a more sophisticated understanding of the notion that correlation does not necessarily imply causation.\nGitHub repos: Spring 2023, Spring 2024\n\nEC 330 – Urban and Regional Economic Problems\nUniversity of Oregon\nDescription: Economics is all about people and incentives. Urban economics is about people, incentives, and their location choices. This course will probe a broad array of topics related to phenomena that arise from cities. We will begin by analyzing basic economic principles that describe the existence of cities. The first half of the course will introduce students to various models and theories commonly used in urban economics. Equipped with these tools, we will cover intra- and intercity topics such as inequality, transportation, growth, and environmental issues. Students will be introduced to cornerstone models, theories, and practices in the field.\nGitHub repos: Summer 2021, Fall 2021, Fall 2022\n\n\n\nEC 425/525 – Masters Econometrics: Spring 2021\nEC 424/524 – Masters Econometrics (Machine Learning and Prediction): Winter 2022\nEC 421 – Introduction to Econometrics II: Fall 2020, Spring 2021, Fall 2023\nEC 330 – Urban and Regional Economic Problems: Spring 2022\nEC 311 – Intermediate Microeconomic Theory: Spring 2021: Spring 2020\nEC 202 – Introduction to Economic Analysis: Macroeconomics: Winter 2020\nEC 201 – Introduction to Economic Analysis: Microeconomics: Winter 2021, Winter 2022\nEC 101 – Contemporary Economic Issues: Fall 2019"
   },
   {
     "objectID": "teaching.html#teaching-assistant",
     "href": "teaching.html#teaching-assistant",
     "title": "teaching",
     "section": "",
-    "text": "EC 425/525: Econometrics: Spring 2021 \nEC 424/524: Masters Econometrics: Machine Learning and Prediction: Winter 2022 \nEC 421: Introduction to Econometrics II: Fall 2020, Spring 2021, Fall 2023 \nEC 330: Urban and Regional Economic Problems: Spring 2022 \nEC 311: Intermediate Microeconomic Theory: Spring 2021: Spring 2020\nEC 202: Introduction to Economic Analysis: Macroeconomics : Winter 2020 \nEC 201: Introduction to Economic Analysis: Microeconomics: Winter 2021, Winter 2022 \nEC 101: Contemporary Economic Issues: Fall 2019"
+    "text": "EC 425/525 – Masters Econometrics: Spring 2021\nEC 424/524 – Masters Econometrics (Machine Learning and Prediction): Winter 2022\nEC 421 – Introduction to Econometrics II: Fall 2020, Spring 2021, Fall 2023\nEC 330 – Urban and Regional Economic Problems: Spring 2022\nEC 311 – Intermediate Microeconomic Theory: Spring 2021: Spring 2020\nEC 202 – Introduction to Economic Analysis: Macroeconomics: Winter 2020\nEC 201 – Introduction to Economic Analysis: Microeconomics: Winter 2021, Winter 2022\nEC 101 – Contemporary Economic Issues: Fall 2019"
   },
   {
     "objectID": "research.html",
@@ -123,6 +130,6 @@
     "href": "index.html",
     "title": "Economist | Data Scientist",
     "section": "",
-    "text": "Economist | Data Scientist\n\nI am an applied microeconomist, employing econometric and data science tools to address problems in environmental, health, and labor economics practicing both causal inference and machine learning techniques. When I am away from my desk, you may find me running, biking, bouldering, or spending time enjoying the outdoors.\nI will receive my PhD in Economics from the University of Oregon in June 2024. I will be participating in the 2024 ASSA job market, so I can be available to discuss my fit with your open position\n[CV] \n\n\n\n\n\nEmail: adickin3 ampersat uoregon period edu"
+    "text": "Economist | Data Scientist\nI am an applied microeconomist, employing econometric and data science tools to address problems in environmental, health, and labor economics practicing both causal inference and machine learning techniques. When I am away from my desk, you may find me running, biking, bouldering, or spending time enjoying the outdoors.\nI will receive my PhD in Economics from the University of Oregon in June 2025. I will be participating in the 2025 ASSA job market, so I can be available to discuss my fit with your open position\n[CV]\n\n\n\n\n\nEmail: adickin3 ampersat uoregon period edu"
   }
 ]

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -25,12 +25,8 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
 <link href="./images/forest.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -41,12 +37,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 20,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -55,6 +45,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -64,9 +55,36 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <meta property="og:title" content="ANDREW JOHN DICKINSON - cv">
 <meta property="og:description" content="">
-<meta property="og:site-name" content="AJD">
+<meta property="og:site_name" content="AJD">
 <meta property="og:locale" content="es_ES">
 </head>
 
@@ -74,46 +92,45 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title"><span class="title">ANDREW JOHN DICKINSON</span></span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">main</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">main</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html" rel="" target="">
- <span class="menu-text">research</span></a>
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
- <span class="menu-text">teaching</span></a>
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./vita.html" rel="" target="" aria-current="page">
- <span class="menu-text">cv</span></a>
+    <a class="nav-link active" href="./vita.html" aria-current="page"> 
+<span class="menu-text">cv</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/ajdickinson" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/ajdickinson"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -129,6 +146,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
   <li><a href="#research" id="toc-research" class="nav-link" data-scroll-target="#research">Research</a></li>
   <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
+  <li><a href="#teaching" id="toc-teaching" class="nav-link" data-scroll-target="#teaching">Teaching</a></li>
   <li><a href="#awards" id="toc-awards" class="nav-link" data-scroll-target="#awards">Awards</a></li>
   <li><a href="#activities" id="toc-activities" class="nav-link" data-scroll-target="#activities">Activities</a></li>
   <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
@@ -155,17 +173,20 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
-<p><a href=""><code>pdf download</code></a></p>
+
+<!-- [`pdf download `]() -->
 <section id="education" class="level2">
 <h2 class="anchored" data-anchor-id="education">Education</h2>
-<p>Ph.D., Economics, University of Oregon (expected 2024)<br>
-M.Sc., Economics, University of Oregon (2021)<br>
+<p>Ph.D., Economics, University of Oregon (expected 2025)<br>
+M.S., Economics, University of Oregon (2021)<br>
 M.A., Economics, San Diego State University (2019)<br>
 B.A., Economics, San Diego State University (2017)</p>
-<p><strong>Primary Interests:</strong> Environmental Economics, Data Science<br>
-<strong>Secondary Interests:</strong> Health Economics, Labor Economics</p>
+<p><strong>Primary Interests:</strong> Environmental Economics, Applied Econometrics, Labor Economics<br>
+<strong>Secondary Interests:</strong> Health Economics, Crime, Development Economics<br>
+<strong>Expertise</strong>: Data Science, Causal Inference, ML, Geospatial Analysis, Data Visualization</p>
 </section>
 <section id="research" class="level2">
 <h2 class="anchored" data-anchor-id="research">Research</h2>
@@ -187,29 +208,51 @@ B.A., Economics, San Diego State University (2017)</p>
 <section id="experience" class="level2">
 <h2 class="anchored" data-anchor-id="experience">Experience</h2>
 <ul>
-<li><strong>Graduate Employee</strong>, Eugene, OR | <em>Sept 2019 - present</em>
+<li><strong>Department of Economics, University of Oregon</strong> | <em>Graduate Employee</em>
 <ul>
-<li><em>Economics Department at the University of Oregon</em>
-<ul>
-<li>Received high student evaluations for teaching effectiveness and student support as a solo instructor of elective courses in economics.</li>
-<li>Developed R programming notes and reference materials for a graduate-level econometrics lab sections as a teaching assistant.</li>
-<li>Led live R coding instruction to undergraduate and graduate students including topics such as ML using <a href="https://tidymodels.org/"><code>tidymodels</code></a> and geospatial data analysis using <a href="https://r-spatial.github.io/sf/"><code>sf</code></a>.</li>
+<li>Taught courses on Econometrics and Urban Economics</li>
+<li>Led econometrics lab sessions with live programming instruction in R</li>
+<li>Produced R programming materials on causal analysis and machine learning for graduate students</li>
 </ul></li>
-</ul></li>
-<li><strong>Research Assistant</strong>, San Diego, CA | <em>Aug 2017 - present</em>
+<li><strong>Prof.&nbsp;Alfredo Burlando</strong>, | <em>Research Assistant</em>
 <ul>
-<li><em>Center for Health Economics &amp; Policy Studies at San Diego State University</em>
-<ul>
-<li>Cleaned large, complex data sets and estimated econometric models.</li>
-<li>Developed detail-oriented workflow habits.</li>
-<li>Coauthored a published research article.</li>
+<li>Estimated heterogenous treatment effects using causal machine learning on two RCT projects</li>
+<li>Programmed algorithm to conduct quantile-aggregated inference on ML proxy predictors of CATE</li>
+<li>Collaborated closely with interdisciplinary team to refine research methodologies</li>
 </ul></li>
+<li><strong>Center for Health Economics &amp; Policy Studies</strong>, <strong>San Diego State University</strong> | <em>Research Assistant</em>
+<ul>
+<li>Provided assistance on two NBER working papers <em>(<a href="https://www.nber.org/papers/w26264">w26264</a>, <a href="https://www.nber.org/papers/w28763">w28763</a>)</em> and authored publication in <a href="https://journals.sagepub.com/doi/abs/10.1177/00197939211044449"><em>ILRR</em></a></li>
+<li>Estimated staggered difference-in-differences, synthetic control, and event study designs</li>
+<li>Managed team of research assistants in project development with a detail-oriented workflow</li>
 </ul></li>
 </ul>
+</section>
+<section id="teaching" class="level2">
+<h2 class="anchored" data-anchor-id="teaching">Teaching</h2>
+<section id="instructor-of-record" class="level5">
+<h5 class="anchored" data-anchor-id="instructor-of-record"><em>Instructor of record</em></h5>
+<p><span class="class-header">EC 320 – Introduction to Econometrics I</span><br>
+University of Oregon: <a href="https://github.com/ajdickinson/EC320S23">Spring 2023</a>, <em>Spring 2024</em></p>
+<p><span class="class-header">EC 330 – Urban and Regional Economic Problems</span><br>
+University of Oregon: <a href="https://github.com/ajdickinson/EC330Su21">Summer 2021</a>, <a href="https://ajdickinson.github.io/EC330F21/">Fall 2021</a>, <a href="https://ajdickinson.github.io/EC330F22">Fall 2022</a></p>
+</section>
+<section id="teaching-assistant" class="level4">
+<h4 class="anchored" data-anchor-id="teaching-assistant"><em>Teaching assistant</em></h4>
+<p>EC 425/525 – (Master’s) Econometrics: Spring 2021<br>
+EC 424/524 – (Master’s) Econometrics (Machine Learning and Prediction): <a href="https://github.com/edrubin/EC524W22">Winter 2022</a><br>
+EC 421: (Undergraduate) Introduction to Econometrics II: Fall 2020, Spring 2021, <a href="https://github.com/ajdickinson/EC421F23_lab">Fall 2023</a><br>
+EC 330 – (Undergraduate) Urban and Regional Economic Problems: Spring 2022<br>
+EC 311 – (Undergraduate) Intermediate Microeconomic Theory: Spring 2021: Spring 2020<br>
+EC 202 – (Undergraduate) Introduction to Economic Analysis: Macroeconomics: Winter 2020<br>
+EC 201 – (Undergraduate) Introduction to Economic Analysis: Microeconomics: Winter 2021, Winter 2022<br>
+EC 101 – (Undergraduate) Contemporary Economic Issues: Fall 2019</p>
+</section>
 </section>
 <section id="awards" class="level2">
 <h2 class="anchored" data-anchor-id="awards">Awards</h2>
 <ul>
+<li>Kleinsorge Fellowship (2023)</li>
 <li>Core Exam Completion Award (2020)</li>
 <li>Graduate Teaching Fellowship (2019 - present)</li>
 <li>McCuen Endowed Economics Scholarship (2017, 2018)</li>
@@ -227,8 +270,9 @@ B.A., Economics, San Diego State University (2017)</p>
 </section>
 <section id="software" class="level2">
 <h2 class="anchored" data-anchor-id="software">Software</h2>
-<p><strong>Computing:</strong> R, SQL, (some) python, bash/unix, git, QGIS, Stata, SAS</p>
-<p><strong>Design:</strong> Markdown, Quarto, <span class="math inline">\(\LaTeX\)</span>, CSS</p>
+<p><strong>Computing</strong>: R, SQL, Python, QGIS, Stata, SAS<br>
+<strong>Workflow</strong>: Bash/Unix, Git, Docker, DuckDB, GCP, AWS<br>
+<strong>Design</strong>: Markdown, Quarto, <span class="math inline">\(\LaTeX\)</span>, CSS, Tableau</p>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
@@ -352,10 +396,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -365,8 +426,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -378,7 +448,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -422,6 +615,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -447,6 +641,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -515,7 +735,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- © Copyright 2023, Andrew John Dickinson
+ © Copyright 2024, Andrew John Dickinson
   </li>  
 </ul>
     </div>
@@ -524,6 +744,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 

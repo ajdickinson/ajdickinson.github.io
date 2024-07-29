@@ -9,9 +9,9 @@ website:
     site-name: AJD
   # site-url: "https://www.quarto.org"
   favicon: images/forest.svg
+  search: false
   navbar:
     background: light
-    search: false
     left:
       - href: index.qmd
         text: "main"
@@ -23,6 +23,7 @@ website:
     # tools:
     right:
       - icon: github
+        # text: GitHub
         href: https://github.com/ajdickinson
       # - icon: linkedin
       #   href: https://www.linkedin.com/in/andrew-dickinson-675266253/
@@ -31,13 +32,13 @@ website:
   page-footer: 
       background: light
       center: 
-        - "© Copyright 2023, Andrew John Dickinson"
+        - "© Copyright 2024, Andrew John Dickinson"
 
 format:
   html: 
     # page-layout: custom
     grid:
-      sidebar-width: 75px
+      sidebar-width: 0px
       body-width: 1600px
       margin-width: 800px
       gutter-width: 2.25rem
