@@ -21,11 +21,25 @@
     "text": "Education\nPh.D., Economics, University of Oregon (expected 2025)\nM.S., Economics, University of Oregon (2021)\nM.A., Economics, San Diego State University (2019)\nB.A., Economics, San Diego State University (2017)"
   },
   {
-    "objectID": "vita.html#research",
-    "href": "vita.html#research",
+    "objectID": "vita.html#research-fields",
+    "href": "vita.html#research-fields",
     "title": "cv",
-    "section": "Research",
-    "text": "Research\n\nPublished\n\n“Productivity losses in the transition to Daylight Saving Time: Evidence from hourly GitHub activity.” (2024). Journal of Economic Behavior & Organization. With Glen R. Waddell. DOI: 10.1016/j.jebo.2024.106749\n“The Effect of E-Verify Laws on Crime.” With B. Churchill, T. Mackay, & J. Sabia. (2021). Industrial Labor Relations Review.\n\n\n\nIn Progress\n\n“Environmental prediction for diverse contexts: Insights for contemporary PM2.5 research and policy.” With Ed Rubin.\n\n“Impact of Credit Linkages Among Ugandan Savings Groups.” With Alfredo Burlando, Jessica Goldberg, & Luciana Etcheverry\n\n\n\nAssistance Provided\n\n“Have U.S. Gun Buyback Programs Misfired?”. D. M. Anderson, T. Ferrazares, & J. Sabia. (2020). National Bureau of Economic Research, (No. w28763).\n“Did the War on Terror Ignite an Opioid Epidemic?”. R. Cesur, J. Sabia, & W. Bradford, (2019). National Bureau of Economic Research, (No. w26264).\n“War! What is it Good For? The Effects of Combat Service on Economic Transitions of Veterans.” J. Sabia & W. Skimmyhorn, (2018). Economic Self-Sufficiency Policy Research Institute, (No. 20181)."
+    "section": "Research Fields",
+    "text": "Research Fields\nPrimary: Environmental Economics, Applied Econometrics, Labor Economics\nSecondary: Health Economics, Crime, Development Economics\nExpertise: Data Science, Causal Inference, ML, Geospatial Analysis, Data Visualization"
+  },
+  {
+    "objectID": "vita.html#publications",
+    "href": "vita.html#publications",
+    "title": "cv",
+    "section": "Publications",
+    "text": "Publications\n\n“Productivity losses in the transition to Daylight Saving Time: Evidence from hourly GitHub activity.” (2024). Journal of Economic Behavior & Organization. With Glen R. Waddell. DOI: 10.1016/j.jebo.2024.106749\n\n“The Effect of E-Verify Laws on Crime.” (2021). Industrial Labor Relations Review. With Brandyn F. Churchill, Taylor Mackay, & Joseph J. Sabia. DOI: 10.1177/00197939211044449"
+  },
+  {
+    "objectID": "vita.html#works-in-progress",
+    "href": "vita.html#works-in-progress",
+    "title": "cv",
+    "section": "Works in Progress",
+    "text": "Works in Progress\n\n“Environmental prediction for diverse contexts: Insights for contemporary PM2.5 research and policy.” With Ed Rubin.\n\n“Impact of Credit Linkages Among Ugandan Savings Groups.” With Alfredo Burlando, Jessica Goldberg, & Luciana Etcheverry"
   },
   {
     "objectID": "vita.html#experience",
@@ -56,6 +70,13 @@
     "text": "Activities\n\nPresenter at TWEEDS (2025), Western Economic Association International Conference (2019), Association for Public Policy and Management (2018) [poster session]\nAttendee at Eastern Economics Association conference (2018), Economic Self-Sufficiency Policy Research Institute Workshop (2017)\nEditor for Undergraduate Research Journal of the College of Arts and Letters (2016)"
   },
   {
+    "objectID": "vita.html#professional-service",
+    "href": "vita.html#professional-service",
+    "title": "cv",
+    "section": "Professional Service",
+    "text": "Professional Service\n\nReferee for Economic Inquiry (2022)"
+  },
+  {
     "objectID": "vita.html#software",
     "href": "vita.html#software",
     "title": "cv",
@@ -81,11 +102,18 @@
     "href": "contact.html",
     "title": "contact",
     "section": "",
-    "text": "Email: adickin3 (at) uoregon (period) edu GitHub: ajdickinson\n\n\nInstalling package into '/opt/homebrew/lib/R/4.5/site-library'\n(as 'lib' is unspecified)\n\n\nalso installing the dependencies 'lazyeval', 'crosstalk', 'htmlwidgets', 'leaflet.providers', 'png'\n\n\n\nleaflet installed\n\n\nInstalling package into '/opt/homebrew/lib/R/4.5/site-library'\n(as 'lib' is unspecified)\n\n\n\nleaflet.extras installed"
+    "text": "Email: adickin3 (at) uoregon (period) edu GitHub: ajdickinson"
   },
   {
     "objectID": "teaching.html",
     "href": "teaching.html",
+    "title": "teaching",
+    "section": "",
+    "text": "EC 320 – Introduction to Econometrics I\nUniversity of Oregon\nDescription: This course introduces statistical techniques that economists use to test economic theories and to estimate the relationships between economic variables. Econometrics combines economics, mathematics, and statistics with data to analyze and measure economic phenomena. In this class, we will focus our attention on regression analysis–the workhorse of applied econometrics. Using calculus and introductory statistics, we will cultivate a working understanding of the theory underpinning regression analysis, emphasizing the assumptions we must make to make causal statements. Statistical programming is fundamental to practicing applied econometrics. Thus we will teach the statistical programming language R to apply insights from theory and learn how to work with data. To the extent that you invest the requisite time and effort, you can leave this course with marketable skills in data analysis and—most importantly—a more sophisticated understanding of the notion that correlation does not necessarily imply causation.\nGitHub repos: Spring 2023, Spring 2024\n\nEC 330 – Urban and Regional Economic Problems\nUniversity of Oregon\nDescription: Economics is all about people and incentives. Urban economics is about people, incentives, and their location choices. This course will probe a broad array of topics related to phenomena that arise from cities. We will begin by analyzing basic economic principles that describe the existence of cities. The first half of the course will introduce students to various models and theories commonly used in urban economics. Equipped with these tools, we will cover intra- and intercity topics such as inequality, transportation, growth, and environmental issues. Students will be introduced to cornerstone models, theories, and practices in the field.\nGitHub repos: Summer 2021, Fall 2021, Fall 2022"
+  },
+  {
+    "objectID": "teaching.html#instructor",
+    "href": "teaching.html#instructor",
     "title": "teaching",
     "section": "",
     "text": "EC 320 – Introduction to Econometrics I\nUniversity of Oregon\nDescription: This course introduces statistical techniques that economists use to test economic theories and to estimate the relationships between economic variables. Econometrics combines economics, mathematics, and statistics with data to analyze and measure economic phenomena. In this class, we will focus our attention on regression analysis–the workhorse of applied econometrics. Using calculus and introductory statistics, we will cultivate a working understanding of the theory underpinning regression analysis, emphasizing the assumptions we must make to make causal statements. Statistical programming is fundamental to practicing applied econometrics. Thus we will teach the statistical programming language R to apply insights from theory and learn how to work with data. To the extent that you invest the requisite time and effort, you can leave this course with marketable skills in data analysis and—most importantly—a more sophisticated understanding of the notion that correlation does not necessarily imply causation.\nGitHub repos: Spring 2023, Spring 2024\n\nEC 330 – Urban and Regional Economic Problems\nUniversity of Oregon\nDescription: Economics is all about people and incentives. Urban economics is about people, incentives, and their location choices. This course will probe a broad array of topics related to phenomena that arise from cities. We will begin by analyzing basic economic principles that describe the existence of cities. The first half of the course will introduce students to various models and theories commonly used in urban economics. Equipped with these tools, we will cover intra- and intercity topics such as inequality, transportation, growth, and environmental issues. Students will be introduced to cornerstone models, theories, and practices in the field.\nGitHub repos: Summer 2021, Fall 2021, Fall 2022"
@@ -105,27 +133,6 @@
     "text": "published\n\nProductivity losses in the transition to Daylight Saving Time: Evidence from hourly GitHub activity\nAndrew Dickinson and Glen R. Waddell. 2024. Journal of Economic Behavior & Organization.\nAbstract:\n\nUsing data on GitHub users around the world, we estimate the effects of transitions to Day-light Saving Time on worker activity. In daily activity, transitions appear short lived—there is evidence of two days of declines before activity returns to baseline levels. However, hourly analysis reveals a transition to Daylight Saving Time that is much longer—losses appear in the early working hours of work days into a second week following the initiation of Daylight Saving Time.\n\n \nThe Effect of E-Verify Laws on Crime\nBrandon Churchill, Andrew Dickinson, Taylor Mackay, and Joseph J. Sabia. 2022. Industrial and Labor Relations Review, 75(5).\nAbstract:\n\nE-Verify laws, which have been adopted by 23 states, require employers to verify whether new employees are eligible to legally work prior to employment. This study explores the impact of state E-Verify laws on crime. Using data from the 2004–2015 National Incident Based Reporting System, the authors find that the enactment of E-Verify is associated with a 7% reduction in property crime incidents involving Hispanic arrestees. This finding was strongest for universal E-Verify mandates that extend to private employers and its external validity bolstered by evidence from the Uniform Crime Reports. Supplemental analyses from the Current Population Survey suggest two mechanisms to explain this result: E-Verify-induced increases in the employment of low-skilled natives of Hispanic descent and out-migration of younger Hispanics. Findings show no evidence that arrests were displaced to nearby jurisdictions without E-Verify or that violent crime or arrests of African Americans were affected by E-Verify laws. The magnitudes of the estimates suggest that E-Verify laws averted $491 million in property crime costs to the United States.\n\n\n\nin progress\n\nEnvironmental prediction for diverse contexts: Insights for contemporary PM2.5 research and policy\nAndrew Dickinson and Ed Rubin\nAbstract:\n\nRecent advances in remote sensing, computational hardware, and machine learning/AI have enabled the prediction of environmental features like PM2.5 at high spatial and temporal resolutions. While such predictions significantly expand the coverage of pollution measurement, their accuracy and reliability depend crucially on methodological choices—considerations easily overlooked by downstream consumers of these predictions. We examine these methodological choices in the context of PM2.5 prediction across the contiguous United States from 2002–2019. Our analysis investigates how the modeling and validation decisions underlying these data affect (1) predictions’ perceived accuracy for different tasks, (2) predictions’ suitability throughout space, and (3) results in downstream empirical analyses. First, we evaluate model performance across conventional independent and spatially explicit cross-validation strategies, demonstrating that standard validation methods substantially overstate predictive accuracy due to data leakage. We propose a novel monitor-presence probability model to subset predicted PM2.5 to areas most similar to the training data, providing a more reliable set of estimates for empirical analyses. Finally, we illustrate how modeling the relationship between predicted PM2.5 and demographic characteristics alter empirical conclusions. Our results emphasize the importance of matching validation and uncertainty quantification to downstream empirical use.\n\nSlides: TWEEDS 2025 (download)"
   },
   {
-    "objectID": "research.html#in-progress",
-    "href": "research.html#in-progress",
-    "title": "research",
-    "section": "in progress",
-    "text": "in progress\nEnvironmental prediction for diverse contexts: Insights for contemporary PM2.5 research and policy\nAndrew Dickinson and Ed Rubin\nAbstract:\n\nRecent advances in remote sensing, computational hardware, and machine learning/AI have enabled the prediction of environmental features like PM2.5 at high spatial and temporal resolutions. While such predictions significantly expand the coverage of pollution measurement, their accuracy and reliability depend crucially on methodological choices—considerations easily overlooked by downstream consumers of these predictions. We examine these methodological choices in the context of PM2.5 prediction across the contiguous United States from 2002–2019. Our analysis investigates how the modeling and validation decisions underlying these data affect (1) predictions’ perceived accuracy for different tasks, (2) predictions’ suitability throughout space, and (3) results in downstream empirical analyses. First, we evaluate model performance across conventional independent and spatially explicit cross-validation strategies, demonstrating that standard validation methods substantially overstate predictive accuracy due to data leakage. We propose a novel monitor-presence probability model to subset predicted PM2.5 to areas most similar to the training data, providing a more reliable set of estimates for empirical analyses. Finally, we illustrate how modeling the relationship between predicted PM2.5 and demographic characteristics alter empirical conclusions. Our results emphasize the importance of matching validation and uncertainty quantification to downstream empirical use.\n\nSlides: TWEEDS 2025"
-  },
-  {
-    "objectID": "research.html#working-papers",
-    "href": "research.html#working-papers",
-    "title": "research",
-    "section": "",
-    "text": "Productivity losses in the transition to Daylight Saving Time: Evidence from hourly GitHub activity\nwith Glen R. Waddell\nAbstract:\n\nUsing data on GitHub users around the world, we estimate the effects of transitions to Daylight Saving Time on worker activity. In daily activity, transitions appear short lived—there is evidence of two days of declines before activity returns to baseline levels. However, hourly analysis reveals a transition to Daylight Saving Time that is much longer—losses appear in the early working hours of work days for up-to-two weeks following the initiation of Daylight Saving Time.\n\npaper"
-  },
-  {
-    "objectID": "research.html#published",
-    "href": "research.html#published",
-    "title": "research",
-    "section": "",
-    "text": "Productivity losses in the transition to Daylight Saving Time: Evidence from hourly GitHub activity\nAndrew Dickinson and Glen R. Waddell. 2024. Journal of Economic Behavior & Organization.\nAbstract:\n\nUsing data on GitHub users around the world, we estimate the effects of transitions to Day-light Saving Time on worker activity. In daily activity, transitions appear short lived—there is evidence of two days of declines before activity returns to baseline levels. However, hourly analysis reveals a transition to Daylight Saving Time that is much longer—losses appear in the early working hours of work days into a second week following the initiation of Daylight Saving Time.\n\n \nThe Effect of E-Verify Laws on Crime\nBrandon Churchill, Andrew Dickinson, Taylor Mackay, and Joseph J. Sabia. 2022. Industrial and Labor Relations Review, 75(5).\nAbstract:\n\nE-Verify laws, which have been adopted by 23 states, require employers to verify whether new employees are eligible to legally work prior to employment. This study explores the impact of state E-Verify laws on crime. Using data from the 2004–2015 National Incident Based Reporting System, the authors find that the enactment of E-Verify is associated with a 7% reduction in property crime incidents involving Hispanic arrestees. This finding was strongest for universal E-Verify mandates that extend to private employers and its external validity bolstered by evidence from the Uniform Crime Reports. Supplemental analyses from the Current Population Survey suggest two mechanisms to explain this result: E-Verify-induced increases in the employment of low-skilled natives of Hispanic descent and out-migration of younger Hispanics. Findings show no evidence that arrests were displaced to nearby jurisdictions without E-Verify or that violent crime or arrests of African Americans were affected by E-Verify laws. The magnitudes of the estimates suggest that E-Verify laws averted $491 million in property crime costs to the United States."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "[ANDREW JOHN DICKINSON]{.title}",
@@ -138,40 +145,5 @@
     "title": "[ANDREW JOHN DICKINSON]{.title}",
     "section": "",
     "text": "I am an applied microeconomist, employing econometric and data science tools to address problems in environmental, health, and labor economics practicing both causal inference and machine learning techniques. \nI will receive my PhD in Economics from the University of Oregon in June 2025.\n\n\nEmail: adickin3 (at) uoregon (period) edu"
-  },
-  {
-    "objectID": "vita.html#research-fields",
-    "href": "vita.html#research-fields",
-    "title": "cv",
-    "section": "Research Fields",
-    "text": "Research Fields\nPrimary: Environmental Economics, Applied Econometrics, Labor Economics\nSecondary: Health Economics, Crime, Development Economics\nExpertise: Data Science, Causal Inference, ML, Geospatial Analysis, Data Visualization"
-  },
-  {
-    "objectID": "vita.html#publications",
-    "href": "vita.html#publications",
-    "title": "cv",
-    "section": "Publications",
-    "text": "Publications\n\n“Productivity losses in the transition to Daylight Saving Time: Evidence from hourly GitHub activity.” (2024). Journal of Economic Behavior & Organization. With Glen R. Waddell. DOI: 10.1016/j.jebo.2024.106749\n\n“The Effect of E-Verify Laws on Crime.” (2021). Industrial Labor Relations Review. With Brandyn F. Churchill, Taylor Mackay, & Joseph J. Sabia. DOI: 10.1177/00197939211044449"
-  },
-  {
-    "objectID": "vita.html#works-in-progress",
-    "href": "vita.html#works-in-progress",
-    "title": "cv",
-    "section": "Works in Progress",
-    "text": "Works in Progress\n\n“Environmental prediction for diverse contexts: Insights for contemporary PM2.5 research and policy.” With Ed Rubin.\n\n“Impact of Credit Linkages Among Ugandan Savings Groups.” With Alfredo Burlando, Jessica Goldberg, & Luciana Etcheverry"
-  },
-  {
-    "objectID": "vita.html#professional-service",
-    "href": "vita.html#professional-service",
-    "title": "cv",
-    "section": "Professional Service",
-    "text": "Professional Service\n\nReferee for Economic Inquiry (2022)"
-  },
-  {
-    "objectID": "teaching.html#instructor",
-    "href": "teaching.html#instructor",
-    "title": "teaching",
-    "section": "",
-    "text": "EC 320 – Introduction to Econometrics I\nUniversity of Oregon\nDescription: This course introduces statistical techniques that economists use to test economic theories and to estimate the relationships between economic variables. Econometrics combines economics, mathematics, and statistics with data to analyze and measure economic phenomena. In this class, we will focus our attention on regression analysis–the workhorse of applied econometrics. Using calculus and introductory statistics, we will cultivate a working understanding of the theory underpinning regression analysis, emphasizing the assumptions we must make to make causal statements. Statistical programming is fundamental to practicing applied econometrics. Thus we will teach the statistical programming language R to apply insights from theory and learn how to work with data. To the extent that you invest the requisite time and effort, you can leave this course with marketable skills in data analysis and—most importantly—a more sophisticated understanding of the notion that correlation does not necessarily imply causation.\nGitHub repos: Spring 2023, Spring 2024\n\nEC 330 – Urban and Regional Economic Problems\nUniversity of Oregon\nDescription: Economics is all about people and incentives. Urban economics is about people, incentives, and their location choices. This course will probe a broad array of topics related to phenomena that arise from cities. We will begin by analyzing basic economic principles that describe the existence of cities. The first half of the course will introduce students to various models and theories commonly used in urban economics. Equipped with these tools, we will cover intra- and intercity topics such as inequality, transportation, growth, and environmental issues. Students will be introduced to cornerstone models, theories, and practices in the field.\nGitHub repos: Summer 2021, Fall 2021, Fall 2022"
   }
 ]
