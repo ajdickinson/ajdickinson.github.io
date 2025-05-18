@@ -158,8 +158,8 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Email:</strong> adickin3 <span class="mono l small">(at)</span> uoregon <span class="mono l small">(period)</span> edu <strong>GitHub:</strong> <a href="https://github.com/ajdickinson">ajdickinson</a></p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-813f23003b6f48f51584" style="width:90%;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-813f23003b6f48f51584">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addMarkers","args":[44.0442725,-123.0805256,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Me",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[44.0442725,44.0442725],"lng":[-123.0805256,-123.0805256]},"setView":[[44.05,-123.06],12,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-2e0879148c0b254f955f" style="width:90%;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-2e0879148c0b254f955f">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addMarkers","args":[44.0442725,-123.0805256,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Me",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[44.0442725,44.0442725],"lng":[-123.0805256,-123.0805256]},"setView":[[44.05,-123.06],12,[]]},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 
@@ -256,7 +256,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/ajdickinson\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

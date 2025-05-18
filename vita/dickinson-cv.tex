@@ -1,0 +1,179 @@
+\documentclass[11pt]{article}
+
+% ------------------------------------------------------- Preamble
+% Margins
+\usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
+
+% Packages
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{marvosym}
+\usepackage{setspace}
+\usepackage{bm}
+\usepackage{titlesec}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{fontspec}
+
+% Section spacing
+\titlespacing*{\section}{0pt}{0.5em}{0.5em}
+\titlespacing*{\subsection}{0pt}{1em}{0.5em}
+
+% Bullet styles
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+
+% Colors
+\definecolor{frost}{HTML}{81A1C1}
+\definecolor{polar}{HTML}{5E81AC}
+\definecolor{night}{HTML}{2e3440}
+
+% Hyper-link setup
+\hypersetup{
+    colorlinks = true,
+    linkcolor  = frost,
+    urlcolor   = frost,
+}
+
+% Fonts
+\setmainfont{Fira Sans Condensed Light}[
+  BoldFont      = Fira Sans Condensed Regular,
+  ItalicFont    = Fira Sans Condensed Light Italic,
+  BoldItalicFont= Fira Sans Condensed Italic
+]
+\setmonofont{iosevka}[Scale=MatchLowercase]
+\newfontfamily\charter{Charter}
+
+% ------------------------------------------------------- Document
+\begin{document}
+\raggedright
+\thispagestyle{empty}
+
+% ------------------------------------------------------- Header
+{\huge ANDREW JOHN DICKINSON} \hfill
+  {\footnotesize\href{https://www.linkedin.com/in/andrew-dickinson-675266253}{linkedin.com/in/ajdickinson3} \faLinkedin}\\
+{\footnotesize\href{https://ajdickinson.github.io}{ajdickinson.github.io}} \,|\, 
+{\footnotesize\href{mailto:adickin3@uoregon.edu}{adickin3@uoregon.edu}} \,|\, 
+% {\footnotesize +1 858-472-3403} \,|\, 
+{\footnotesize Eugene, Oregon} \hfill
+{\footnotesize\href{https://github.com/ajdickinson}{github.com/ajdickinson} \faGithub}
+
+% \vspace*{1.5em}
+
+% ======================================================= Education
+\subsection*{EDUCATION}
+% \begin{itemize}[itemsep=0ex, topsep=0em, leftmargin=0em]
+\makebox[3.5em][l]{\textbf{Ph.D.},} Economics, \textbf{University of Oregon} \hfill \textit{expected} 2025 \\
+\makebox[3.5em][l]{\textbf{M.S.},} Economics, \textbf{University of Oregon} \hfill 2021 \\
+\makebox[3.5em][l]{\textbf{M.A.},} Economics, \textbf{San Diego State University} \hfill 2019 \\
+\makebox[3.5em][l]{\textbf{B.A.},} Economics, \textbf{San Diego State University} \hfill 2017 \\
+% \end{itemize}
+
+% \vspace{1.5em}
+
+% =================================================== Research Fields
+\subsection*{RESEARCH FIELDS}
+% \begin{itemize}[itemsep=0ex, topsep=0em, leftmargin=0em]
+\textbf{Primary:} Environmental Economics, Applied Econometrics, Labor Economics \\
+\textbf{Secondary:} Health Economics, Crime, Development Economics \\
+\textbf{Expertise:} Causal Inference, Machine Learning, Data Science, Geospatial Analysis, Data Visualization \\
+% \end{itemize}
+
+% \vspace{1.5em}
+
+% ===================================================== Publications
+\subsection*{PUBLICATIONS}
+\begin{itemize}[itemsep=0ex, topsep=0em, leftmargin=0em]
+  \item[] “Productivity losses in the transition to Daylight Saving Time: Evidence from hourly GitHub activity.” (2024). \textit{Journal of Economic Behavior \& Organization}. With \href{https://glenwaddell.com}{Glen R. Waddell}.
+  \item[] “The Effect of E-Verify Laws on Crime.” (2021). \textit{Industrial Labor Relations Review}. With \href{https://brandynchurchill.com/}{Brandyn F. Churchill}, \href{https://tmackay.io/}{Taylor Mackay}, \& \href{https://economics.sdsu.edu/faculty/sabia}{Joseph J. Sabia}.
+\end{itemize}
+
+% \vspace{1.5em}
+
+% =============================================== Works in Progress
+\subsection*{WORKS IN PROGRESS}
+\begin{itemize}[itemsep=0ex, topsep=0em, leftmargin=0em]
+  \item[] “Environmental prediction for diverse contexts: Insights for contemporary PM2.5 research and policy.” With \href{https://edrub.in}{Ed Rubin}.
+  \item[] “Impact of Credit Linkages Among Ugandan Savings Groups.” With \href{https://www.alfredoburlando.com/}{Alfredo Burlando}, \href{https://econweb.umd.edu/~goldberg/index.html}{Jessica Goldberg}, \& \href{https://blogs.iadb.org/igualdad/en/author/lucianaetcheverry/}{Luciana Etcheverry}.
+\end{itemize}
+
+% \vspace{1.5em}
+
+% ============================================= Experience (concise)
+\subsection*{EXPERIENCE}
+% \begin{itemize}[itemsep=0.75ex, topsep=0em, leftmargin=0em]
+\textbf{Research Assistant} \textit{(Professor Alfredo Burlando)} | University of Oregon \hfill \textit{2023-2024} \\
+\textbf{Research Fellow} | Center for Health Economics \& Policy Studies, San Diego State University \hfill \textit{2017-2019} \\
+% \end{itemize}
+
+% \vspace{1.5em}
+
+% ======================================================== Teaching
+\subsection*{TEACHING}
+\textit{University of Oregon} | \textit{Department of Economics} \\
+\vspace{0.25em}
+\textbf{Instructor} \\
+Introduction to Econometrics I: Spring 2023, Spring 2024 (undergraduate-level) \\
+Urban and Regional Economic Problems: Summer 2021, Fall 2021, Fall 2022 (undergraduate-level) \\
+\vspace{0.25em}
+\textbf{Teaching Assistant} \\
+Development Economics: Winter 2025 (graduate-level) \\
+Econometrics (Causal Inference Methods): Spring 2021 (graduate-level) \\
+Econometrics (Machine Learning \& Prediction): Winter 2022, Winter 2025 (graduate-level) \\
+Introduction to Econometrics II: Fall 2020, Spring 2021, Fall 2023, Fall 2024 (undergraduate-level) \\
+Urban and Regional Economic Problems: Spring 2022 (undergraduate-level) \\
+Introduction to Econometrics I: Winter 2024, Spring 2025 (undergraduate-level) \\
+Intermediate Microeconomic Theory: Spring 2020, Spring 2021 (undergraduate-level) \\
+Intro to Economic Analysis: Macroeconomics: Winter 2020 (undergraduate-level) \\
+Intro to Economic Analysis: Microeconomics: Winter 2021, Winter 2022 (undergraduate-level) \\
+Contemporary Economic Issues: Fall 2019 (undergraduate-level) \\
+% \end{itemize}
+
+% \vspace{1.5em}
+
+% ========================================================= Awards
+\subsection*{AWARDS}
+% \begin{itemize}[itemsep=0.25ex, topsep=0em, leftmargin=0em]
+Kleinsorge Fellowship (2023) \\
+Core Exam Completion Award (2020) \\
+Graduate Teaching Fellowship (2019 - present) \\
+McCuen Endowed Economics Scholarship (2017, 2018) \\
+Center for Public Economics Paper Award (2018) \\
+
+% \vspace{1.5em}
+
+% ======================================================= Activities
+\subsection*{ACTIVITIES}
+
+TWEEDS \textit{2025}; Western Economic Association International Conference \textit{2019}; Association for Public Policy and Management \textit{2018} (poster session)
+
+% \vspace{1.5em}
+
+% ================================================ Professional Svc
+\subsection*{PROFESSIONAL SERVICE}
+Referee for \textit{Economic Inquiry} (2022)
+
+% \vspace{1.5em}
+
+% ========================================================= Skills
+\subsection*{SKILLS}
+% \begin{itemize}[itemsep=0.25ex, topsep=0em, leftmargin=0em]
+\textbf{Computing}: R, SQL (BigQuery, DuckDB), Python, QGIS, Stata, SAS \\
+\textbf{Workflow}: Bash/Unix, Git, Docker, Make \\
+\textbf{Cloud}: Google Cloud Platform, AWS, Spark \\
+\textbf{Design}: Markdown, Quarto, {\charter\LaTeX}, typst, CSS, Shiny \\
+% \end{itemize}
+
+% \vspace{1.5em}
+
+% ====================================================== References
+\subsection*{REFERENCES}
+% \begin{itemize}[itemsep=1ex, topsep=0em, leftmargin=0em]
+\textbf{Glen R. Waddell} -- Professor, Economics, University of Oregon; IZA Research Fellow; \href{https://glenwaddell.com}{glenwaddell.com} \\
+\textbf{Ed Rubin} -- Assistant Professor, Economics, University of Oregon \href{https://edrub.in}{edrub.in} \\
+\textbf{Grant McDermott} -- Principal Economist, Amazon \href{https://grantmcdermott.com/}{grantmcdermott.com} \\
+\textbf{Jake Searcy} -- Assistant Professor, Geography, University of Oregon \href{https://cas.uoregon.edu/directory/computer-and-data-sciences/all/jsearcy}{cas.uoregon.edu} \\
+% \end{itemize}
+
+\end{document}

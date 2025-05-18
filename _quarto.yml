@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  site-url: "https://ajdickinson.github.io/"
   title: "[ANDREW JOHN DICKINSON]{.title}"
   open-graph:
     locale: es_ES
