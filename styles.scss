@@ -1,408 +1,255 @@
-/*-- scss:defaults --*/
-
-/* Setup */
-
-/* Import fonts from Google Fonts */
+// Import fonts
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=JetBrains+Mono&display=swap');
 
-/* Assign font variables */
+@import url("https://iosevka-webfonts.github.io/iosevka/iosevka.css");
+
+// Set font variables
 $font-family-sans-serif: 'Fira Sans Extra Condensed', Helvetica Neue, Arial, sans-serif !default;
 // $font-family-monospace: 'JetBrains Mono', 'Courier New', monospace !default;
+$font-family-monospace: 'Iosevka', 'Courier New', monospace !default;
+
+// Root font weight
 $root-font-weight: 300;
-/* Font size */
+
+// Title size
 $title-size: 28pt;
 
-/* Assign Color Variables */
-/* Standard */
+// Colors
 $white: #fff;
-
-/* Nord theme (https://www.nordtheme.com/) */
-/* Polar night */
-$polar-night-1: #2E3440;
-$polar-night-2: #2E3440;
-$polar-night-3: #2E3440;
-$polar-night-4: #2E3440;
-
-/* Snow storm */
-$snow-storm-1: #D8DEE9;
-$snow-storm-2: #E5E9F0;
-$snow-storm-3: #ECEFF4;
-
-/* Frost */
+$night: #2E3440;
+$dark-gray: #3b4252;
+$snowstorm:#ECEFF4;
 $frost-1: #8FBCBB;
 $frost-2: #88C0D0;
 $frost-3: #81A1C1;
 $frost-4: #5E81AC;
-
-/* Aurora */
-$red: #BF616A;
+$red:    #BF616A;
 $orange: #D08770;
 $yellow: #EBCB8B;
-$green: #A3BE8C;
+$green:  #A3BE8C;
 $purple: #B48EAD;
 
-/* Base document colors */
-$navbar-bg: $white; /* navbar */
-$navbar-fg: $polar-night-1; /* navbar foreground elements */
-$navbar-hl: $frost-3; /* highlight color when hovering over navbar links */
-$body-bg: $white; /* page background */
-$body-color: $polar-night-1; /* page text */
-$footer-bg: $white; /* footer */
-$link-color: $frost-3; /* hyperlinks */
-$heading-color: $polar-night-1;
+// Navbar colors
+$navbar-bg: $white;
+$navbar-fg: $night;
+$navbar-hl: $purple;
 
-/* Inline code */
-$code-bg: $white; /* inline code background color */
-$code-color: $polar-night-1; /* inline code text color */
+// Body background
+$body-bg: $white;
+// Body text
+$body-color: $night;
+// Footer background
+$footer-bg: $white;
+// Heading color
+$heading-color: $night;
+// Link color
+$link-color: $purple;
+// Link hover color
+$link-hover-color: $purple;
 
-/* Code blocks */
-$code-block-bg: $polar-night-1; /* code block background color */
+// Inline code
+$code-bg: $white;
+$code-color: $night;
+
+// Code block
+$code-block-bg: $snowstorm;
+
 
 /*-- scss:rules --*/
 
-body {
-  font-weight: $root-font-weight; /* Use the variable */
-}
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: $root-font-weight; /* Use the variable */
-}
-
-.quarto-about-trestles img {
-  width: 30%;
-  margin-right: 0%;
-  margin-left: 0%;
-}
-
-div.quarto-about-trestles {
-  display: flex !important;
-  padding-top: 0em !important;
-  padding-bottom: 0em;
-}
-
-@media (max-width: 450px) {
-  .navbar > .container-fluid {
-    flex-wrap: inherit;
-    -webkit-flex-wrap: inherit;
-    align-items: left;
-    -webkit-align-items: left;
-  }
-  .title {
-    margin-top: 0.86rem;
-    font-style: normal;
-    font-weight: 300;
-    color: $polar-night-1 !important;
-    font-size: 1.5em;
-  }
-  a.navbar-brand {
-    font-size: 0.86rem !important;
-  }
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    font-size: 14px !important;
-    // padding-bottom: 1rem;
-    // padding-top: 1rem;
-  }
-  .about-entity {
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  div.quarto-about-trestles .about-entity {
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-right: 0em;
-  }
-}
-
-@media (min-width: 450px) {
-  .navbar > .container-fluid {
-    margin-top: 60px;
-    margin-left: 60px;
-    flex-wrap: inherit;
-    -webkit-flex-wrap: inherit;
-    align-items: left;
-    -webkit-align-items: left;
-  }
-  .title {
-    margin-top: 18px;
-    font-style: normal;
-    font-weight: 300;
-    color: $polar-night-1 !important;
-    font-size: $title-size;
-  }
-  h {
-    font-size: $title-size;
-  }
-  .navbar-brand {
-    font-size: 1.25em !important;
-  }
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    font-size: 14px !important;
-  }
-  .about-entity {
-    padding-top: 80px;
-    padding-left: 17px;
-    padding-right: 17px;
-  }
-  div.quarto-about-trestles .about-entity {
-    display: flex !important;
-    flex-direction: column;
-    align-items: left;
-    text-align: center;
-    padding-right: 1em;
-  }
-  /* Increase github icon size */
-  i.bi.bi-github {
-    font-size: 22px !important;
-  }
-}
-
-/* Drop search button */
+// Drop search button
 .navbar-search {
   display: none;
 }
 
-/* Change border radius of images */
-img {
-  border-radius: 6px;
-}
+// Image radius
+// img {border-radius: 0px;}
 
-/* Assign color to headings */
-h {
-  color: $polar-night-1;
-}
+// Color headings
+h {color: $night;}
 
-/* Footer size and color */
-.footer {
-  font-size: 1em;
-}
-.nav-footer .nav-footer-center {
-  font-size: 1em;
-  color: $polar-night-4;
-}
+// Menu font
+.menu-text {font-family: $font-family-monospace;}
 
-/* Fix about page */
-div.quarto-about-trestles .about-entity {
-  flex: none !important;
-}
-/* Add margin to about page */
-div.quarto-about-trestles .about-contents main.content {
-  margin-top: 120px;
-}
-/* Change font of menu text */
-.menu-text {
-  font-family: JetBrains Mono;
-}
-/* Adjust paragraph font size */
-p {
-  font-size: 32;
-}
+// Body font weight
+body {font-weight: $root-font-weight;}
 
-/*-- Types --*/
-/* Note class */
-.note {
-  font-family: 'Fira Sans Extra Condensed' !important;
-  font-weight: 300;
-  color: $polar-night-4 !important;
-  font-size: 16px;
-}
-a.nav-link {
-  font-size: 18px !important;
-}
-/* Drop text decoration for links */
+// Body font
+p {font-size: 32;}
+
+// Headings font weight
+h1, h2, h3, h4, h5, h6 {font-weight: $root-font-weight;}
+
+// Monofont headings
+h1.title {
+  font-family: $font-family-monospace;
+  font-weight: 200;
+  }
+
+// Link font
 a {
   text-decoration: none;
-}
-/* Change color of active link */
-.nav-link.active {
-  color: $polar-night-1 !important;
-}
-/* Change color of hover link */
-.title:hover {
-  color: $frost-3 !important;
-}
-/* Change color of hover link for title */
-h1.title:hover {
-  color: inherit !important; /* Or whatever the original color is */
+  font-weight: $root-font-weight !important;
 }
 
-h1.title {
-  text-transform: uppercase;
+// Link colors
+.nav-link.active {color: $night !important;}
+.title:hover {color: $link-hover-color !important;}
+
+// Footer
+.footer {font-size: 1em;}
+.nav-footer .nav-footer-center {
+  font-size: 1em;
+  color: $night;
 }
 
-/* New class for about header */
-.class-header {
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-weight: 400;
-  color: $polar-night-4;
-}
-/* Publication header class */
-.pub-header {
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-weight: 400;
-  // font-size: 16pt;
-  color: $polar-night-4;
-}
-/* Example class */
-.ex {
-  color: $snow-storm-1 !important;
-  font-style: italic;
-  font-weight: 500;
-}
-/* Pseudocode class */
-.pseudocode, .pseudocode-small {
-  font-family: 'JetBrains Mono';
-  background: $snow-storm-3;
-  border-radius: 3px;
-  padding: 10px;
-  text-transform: lowercase !important;
-}
-.pseudocode-small {
-  font-size: 20px;
-}
-/* Subscript class */
+
+/*-- Types --*/
+
+// Colors
+.blue {color: $frost-3;}
+.purple {color: $purple !important;}
+.green {color: $green;}
+.red {color: $red;}
+.teal {color: $frost-1;}
+.white {color: $white !important;}
+
+// Sizes
+.small {font-size: 0.75rem;}
+.tiny {font-size: 0.5rem;}
+.big {font-size: 1.25rem;}
+.realbig {font-size: 1.5rem;}
+.huge {font-size: 2rem;}
+
+// Bold
+.b {font-weight: 400;}
+
+// Light
+.l {font-weight: 200 !important;}
+
+// Mono
+.mono {font-family: $font-family-monospace;}
+
+// Subscripts
 .sub {
   font-size: 75%;
   vertical-align: sub;
   line-height: 0;
 }
-/* Small class */
-.small {
-  font-size: 28px;
-}
-/* Tiny class */
-.tiny {
-  font-size: 24px;
-}
-/* Big class */
-.big {
-  font-size: 38px;
-  font-weight: 400;
-}
-/* Bigger class */
-.realbig {
-  font-size: 60px;
-  font-weight: 400;
-}
-/* Huge class */
-.huge {
-  font-size: 100px;
-  font-weight: 400;
-}
-/* Mono class */
-.mono {
-  font-family: monospace;
+
+// Superscripts
+.sup {
+  font-size: 75%;
+  vertical-align: super;
+  line-height: 0;
 }
 
-/*-- Highlight colors --*/
-.pi {
-  font-family: 'Fira Sans Extra Condensed';
-  font-weight: 200;
-  color: $polar-night-1;
+// Note
+.note {
+  font-family: 'Fira Sans Extra Condensed' !important;
+  font-weight: 300;
+  color: $night !important;
+  font-size: 16px;
 }
-.h {
-  font-family: 'Fira Sans Extra Condensed';
+
+// Example
+.ex {
+  color: $snowstorm !important;
+  font-style: italic;
   font-weight: 500;
-  color: $polar-night-1;
-}
-.hi {
-  font-family: 'Fira Sans Extra Condensed';
-  font-weight: 400;
-  color: $polar-night-3;
-}
-.hii {
-  font-weight: 400;
-  color: $frost-3;
-}
-.hi-teal {
-  font-weight: 400;
-  color: $frost-1;
-}
-.hi-bb {
-  font-weight: 400;
-  color: $frost-2;
-}
-.hp {
-  font-weight: 400;
-  color: $purple !important;
-}
-.hi-green {
-  font-weight: 400;
-  color: $green;
-}
-.hi-red {
-  font-weight: 400;
-  color: $red;
-}
-.hi-orange {
-  font-weight: 400;
-  color: $orange;
-}
-.hi-yellow {
-  font-weight: 400;
-  color: $yellow;
-}
-.hi-white {
-  font-weight: 400;
-  color: $white !important;
-}
-.hi-grey {
-  font-weight: 400;
-  color: $polar-night-2 !important;
 }
 
-/*-- Colors --*/
-.blue {
-  color: $frost-3;
-}
-.purple {
-  color: $purple !important;
-}
-.green {
-  color: $green;
-}
-.red {
-  color: $red;
-}
-.teal {
-  color: $frost-1;
-}
-.white {
-  color: $white !important;
+// Pseudocode class
+.pseudocode {
+  font-family: $font-family-monospace;
+  background: $snowstorm;
+  border-radius: 3px;
+  padding: 10px;
+  text-transform: lowercase !important;
 }
 
-/* google material icons */
-// @font-face {
-//   font-family: 'Material Icons';
-//   font-style: normal;
-//   font-weight: 300;
-//   src: url('fonts/MaterialIcons-Regular.woff2'); /* For IE6-8 */
-//   src: local('Material Icons'),
-//        local('MaterialIcons-Regular'),
-//        url('fonts/MaterialIcons-Regular.woff2') format('woff2'),
-//       //  url('fonts/MaterialIcons-Regular.woff') format('woff'),
-//       //  url('fonts/MaterialIcons-Regular.ttf') format('truetype');
-// }
 
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 18px; /* Default icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  -moz-osx-font-smoothing: grayscale;
+// Navbar, title, and other viewing options (Desktop v Mobile)
+// Mobile
+@media (max-width: 450px) {
+  // Navbar
+  .navbar > .container-fluid {
+    flex-wrap: inherit;
+    -webkit-flex-wrap: inherit;
+    align-items: left;
+    -webkit-align-items: left;
+  }
+  // Title
+  .title {
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    color: $night !important;
+    font-size: 1.2em;
+  }
+  // Navbar brand
+  a.navbar-brand {
+    font-size: 0.86rem !important;
+  }
+  // Navbar links
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 16px !important;
+  }
+  // About padding
+  .about-entity {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  // Headers
+  h2 {font-size: 1.2em;}
+  // Body content
+  p {font-size: 0.9em;}
 }
+
+// Desktop
+@media (min-width: 450px) {
+  // Navbar
+  .navbar > .container-fluid {
+    margin-top: 60px;
+    margin-left: 100px;
+    flex-wrap: inherit;
+    -webkit-flex-wrap: inherit;
+    align-items: left;
+    -webkit-align-items: left;
+  }
+  // Title
+  .title {
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 300;
+    color: $night !important;
+    font-size: $title-size;
+  }
+  // Heading
+  h {font-size: $title-size;}
+  // Navbar brand
+  .navbar-brand {
+    font-size: 1.25em !important;
+  }
+  // Navbar links
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 14px !important;
+  }
+  // About padding
+  .about-entity {
+    padding-top: 0px;
+    padding-left: 0px;
+    // padding-right: 17px;
+    margin-left: 0px;
+  }
+  // div.quarto-about-trestles .about-entity {
+  //   flex: 0 0 28% !important;
+  // }
+}
+

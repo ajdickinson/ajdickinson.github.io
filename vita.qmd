@@ -2,7 +2,7 @@
 title: "cv"
 ---
 
-<!-- [`pdf download `]() -->
+[`pdf download `](vita/dickinson-cv.pdf)
 
 ## Education
 
@@ -11,61 +11,52 @@ M.S., Economics, University of Oregon (2021)
 M.A., Economics, San Diego State University (2019)  
 B.A., Economics, San Diego State University (2017)  
 
-__Primary Interests:__ Environmental Economics, Applied Econometrics, Labor Economics  
-__Secondary Interests:__ Health Economics, Crime, Development Economics  
+## Research Fields
+
+__Primary:__ Environmental Economics, Applied Econometrics, Labor Economics  
+__Secondary:__ Health Economics, Crime, Development Economics  
 __Expertise__: Data Science, Causal Inference, ML, Geospatial Analysis, Data Visualization  
 
-## Research
+## Publications
 
-#### Published
+- "Productivity losses in the transition to Daylight Saving Time: Evidence from hourly GitHub activity." (2024). **Journal of Economic Behavior & Organization**. With [Glen R. Waddell](https://glenwaddell.com). [DOI: 10.1016/j.jebo.2024.106749](https://doi.org/10.1016/j.jebo.2024.106749)  
+- "The Effect of E-Verify Laws on Crime." (2021). **Industrial Labor Relations Review**. With [Brandyn F. Churchill](https://brandynchurchill.com/), [Taylor Mackay](https://tmackay.io/), & [Joseph J. Sabia](https://economics.sdsu.edu/faculty/sabia). [DOI: 10.1177/00197939211044449](https://doi.org/10.1177/00197939211044449)
 
-- "The Effect of E-Verify Laws on Crime." With B. Churchill, T. Mackay, & J. Sabia. (2021). **Industrial Labor Relations Review**.
+## Works in Progress
 
-#### Assistance Provided
+- "Environmental prediction for diverse contexts: Insights for contemporary PM2.5 research and policy." With [Ed Rubin](https://edrub.in).  
+- "Impact of Credit Linkages Among Ugandan Savings Groups." With [Alfredo Burlando](https://www.alfredoburlando.com/), [Jessica Goldberg](https://econweb.umd.edu/~goldberg/index.html), & [Luciana Etcheverry](https://blogs.iadb.org/igualdad/en/author/lucianaetcheverry/)
 
+<!-- ## Other Research
 - "Have U.S. Gun Buyback Programs Misfired?". D. M. Anderson, T. Ferrazares, & J. Sabia. (2020). **National Bureau of Economic Research**, (No. w28763).
 - "Did the War on Terror Ignite an Opioid Epidemic?". R. Cesur, J. Sabia, & W. Bradford, (2019). **National Bureau of Economic Research**, (No. w26264).
-- "War! What is it Good For? The Effects of Combat Service on Economic Transitions of Veterans." J. Sabia & W. Skimmyhorn, (2018). **Economic Self-Sufficiency Policy Research Institute**, (No. 20181).
+- "War! What is it Good For? The Effects of Combat Service on Economic Transitions of Veterans." J. Sabia & W. Skimmyhorn, (2018). **Economic Self-Sufficiency Policy Research Institute**, (No. 20181). -->
+
 
 ## Experience
 
-- **Department of Economics, University of Oregon** | *Graduate Employee* 
-  - Taught courses on Econometrics and Urban Economics
-  - Led econometrics lab sessions with live programming instruction in R
-  - Produced R programming materials on causal analysis and machine learning for graduate students
-
-- **Prof. Alfredo Burlando**, | *Research Assistant*
-  - Estimated heterogenous treatment effects using causal machine learning on two RCT projects
-  - Programmed algorithm to conduct quantile-aggregated inference on ML proxy predictors of CATE
-  - Collaborated closely with interdisciplinary team to refine research methodologies
-
-- **Center for Health Economics & Policy Studies**, **San Diego State University** | _Research Assistant_
-  - Provided assistance on two NBER working papers _([w26264](https://www.nber.org/papers/w26264),
-            [w28763](https://www.nber.org/papers/w28763))_ and authored publication in 
-            [_ILRR_](https://journals.sagepub.com/doi/abs/10.1177/00197939211044449)
-  - Estimated staggered difference-in-differences, synthetic control, and event study designs
-  - Managed team of research assistants in project development with a detail-oriented workflow
+**Research Assistant** | *Professor Alfredo Burlando* | *University of Oregon*  | _2023-2024_  
+**Research Fellow** | _Center for Health Economics and Policy Studies at San Diego State University_ | _2017-2019_  
 
 ## Teaching
-##### _Instructor of record_
 
-[EC 320 -- Introduction to Econometrics I]{.class-header}  
-University of Oregon: [Spring 2023](https://github.com/ajdickinson/EC320S23), _Spring 2024_  
+**Instructor** | *University of Oregon*  
 
+- **EC 320**: Introduction to Econometrics I: [Spring 2023](https://github.com/ajdickinson/EC320S23), [Spring 2024](https://github.com/ajdickinson/EC320S24) (Undergraduate)
+- **EC 330**: Urban and Regional Economic Problems: Summer 2021, Fall 2021, Fall 2022 (Undergraduate)
 
-[EC 330 -- Urban and Regional Economic Problems]{.class-header}  
-University of Oregon: [Summer 2021](https://github.com/ajdickinson/EC330Su21), [Fall 2021](https://ajdickinson.github.io/EC330F21/), [Fall 2022](https://ajdickinson.github.io/EC330F22)
+**Teaching Assistant** | *University of Oregon*  
 
-#### _Teaching assistant_
-
-EC 425/525 -- (Master's) Econometrics: Spring 2021  
-EC 424/524 -- (Master's) Econometrics (Machine Learning and Prediction): [Winter 2022](https://github.com/edrubin/EC524W22)  
-EC 421: (Undergraduate) Introduction to Econometrics II: Fall 2020, Spring 2021, [Fall 2023](https://github.com/ajdickinson/EC421F23_lab)  
-EC 330 -- (Undergraduate) Urban and Regional Economic Problems: Spring 2022  
-EC 311 -- (Undergraduate) Intermediate Microeconomic Theory: Spring 2021: Spring 2020  
-EC 202 -- (Undergraduate) Introduction to Economic Analysis: Macroeconomics: Winter 2020  
-EC 201 -- (Undergraduate) Introduction to Economic Analysis: Microeconomics: Winter 2021, Winter 2022  
-EC 101 -- (Undergraduate) Contemporary Economic Issues: Fall 2019  
+- EC 490/590 -- Development Economics: Winter 2025 (Master's)  
+- EC 425/525 -- Econometrics: Spring 2021 (Master's)  
+- EC 424/524 -- Econometrics (Machine Learning and Prediction): [Winter 2022](https://github.com/edrubin/EC524W22), [Winter 2025](https://github.com/edrubin/EC524W25) (Master's)  
+- EC 421 -- Introduction to Econometrics II: Fall 2020, Spring 2021, [Fall 2023](https://github.com/ajdickinson/EC421F23_lab), Fall 2024 (Undergraduate)  
+- EC 320 -- Introduction to Econometrics I: Winter 2024, Spring 2025 (Undergraduate)  
+- EC 330 -- Urban and Regional Economic Problems: Spring 2022 (Undergraduate)  
+- EC 311 -- Intermediate Microeconomic Theory: Spring 2021: Spring 2020 (Undergraduate)  
+- EC 202 -- Introduction to Economic Analysis: Macroeconomics: Winter 2020 (Undergraduate)  
+- EC 201 -- Introduction to Economic Analysis: Microeconomics: Winter 2021, Winter 2022 (Undergraduate)  
+- EC 101 -- Contemporary Economic Issues: Fall 2019 (Undergraduate)  
 
 ## Awards
 - Kleinsorge Fellowship (2023)
@@ -76,57 +67,51 @@ EC 101 -- (Undergraduate) Contemporary Economic Issues: Fall 2019
 
 ## Activities
 
-- Presenter at Western Economic Association International Conference (2019), Association for Public Policy and Management (2018) [poster session]
+- Presenter at TWEEDS (2025), Western Economic Association International Conference (2019), Association for Public Policy and Management (2018) [poster session]
 - Attendee at Eastern Economics Association conference (2018), Economic Self-Sufficiency Policy Research Institute Workshop (2017)
 - Editor for Undergraduate Research Journal of the College of Arts and Letters (2016)
-- Referee for Economic Inquiry (2022)
+
+## Professional Service
+
+- Referee for **Economic Inquiry** (2022)
 
 ## Software
 
-__Computing__: R, SQL, Python, QGIS, Stata, SAS  
-__Workflow__: Bash/Unix, Git, Docker, DuckDB, GCP, AWS  
-__Design__: Markdown, Quarto, $\LaTeX$, CSS, Tableau  
+__Computing__: R, SQL (BigQuery, DuckDB), Python, QGIS, Stata, SAS  
+__Workflow__: Bash/Unix, Git, Docker  
+__Cloud__: Google Cloud Platform, AWS, Spark  
+__Design__: Markdown, Quarto, $\LaTeX$, typst, CSS, Shiny  
 
 ## References
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-__Glen R. Waddell__  
+
+__Ed Rubin__  (Co-Chair)
+Assistant Professor  
+Department of Economics  
+University of Oregon  
+[edrub.in](https://edrub.in)
+
+__Grant McDermott__  
+Principal Economist  
+Amazon  
+[grantmcdermott.com](https://grantmcdermott.com/)
+
+:::
+
+::: {.column width="50%"}
+__Glen R. Waddell__  (Co-Chair)
 Professor  
 Department of Economics  
 University of Oregon  
 IZA Research Fellow  
 [glenwaddell.com](https://glenwaddell.com)
 
-
-__Ed Rubin__  
-Assistant Professor  
-Department of Economics  
-University of Oregon  
-[edrub.in](https://edrub.in)
-
-:::
-
-::: {.column width="50%"}
-__Grant Mcdermott__  
-Principal Economist  
-Amazon  
-[grantmcdermott.com](https://grantmcdermott.com/)
-
-<br>
-
-__Henry Luan__  
-Assistant Professor  
-Department of Geography  
-University of Oregon  
-[h3luan.github.io](https://h3luan.github.io/)
-
-
 :::
 
 ::::
-
 
 
 ## Contact
@@ -136,9 +121,5 @@ Prince Lucian Campbell Hall
 1285 University of Oregon  
 Eugene, OR 97403-1285  
 
-
-**Email:** adickin3 ampersat uoregon at edu  
-
-
+**Email:** adickin3 at uoregon period edu  
 **Github:** ajdickinson  
-

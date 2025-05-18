@@ -2,7 +2,9 @@
 title: "contact"
 ---
 
-Email: adickin3 ampersat uoregon period edu
+__Email:__ adickin3 [(at)]{.mono .l .small} uoregon [(period)]{.mono .l .small} edu
+__GitHub:__ [ajdickinson](https://github.com/ajdickinson)
+
 
 ```{R}
 #| echo: false

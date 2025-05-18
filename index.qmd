@@ -3,35 +3,26 @@ title: ""
 toc: false
 about:
   template: trestles
-  # image: images/headshot.png
   image: images/headshots/IMG_30.jpg
-  image-width: 19em
-#   image-shape: rounded
+  image-width: 21em
 
 ---
 
-::: {.grid}
 
-::: {.g-col-lg-9 .g-col-md-9 .g-col-12}
-# Economist  | Data Scientist 
+## Economist  | Data Scientist 
 
-I am an applied microeconomist, employing econometric and data science tools to address problems in environmental, health, and labor economics practicing both causal inference and machine learning techniques. When I am away from my desk, you may find me running, biking, bouldering, or spending time enjoying the outdoors.
+I am an applied microeconomist, employing econometric and data science tools to address problems in environmental, health, and labor economics practicing both causal inference and machine learning techniques. 
+<!-- When I am away from my desk, you may find me running, biking, bouldering, or spending time enjoying the outdoors. -->
 
-I will receive my PhD in Economics from the University of Oregon in June 2025. I will be participating in the 2025 ASSA job market, so I can be available to discuss my fit with your open position
+I will receive my PhD in Economics from the University of [Oregon]{.note .red} in June 2025. 
 
-
-[[CV](vita.qmd)]
+<!-- [[CV](vita.qmd)] -->
 
 
-:::
+<!-- [Contact](contact.qmd) -->
 
-::: {.g-col-lg-3 .g-col-md-3 .g-col-0}
-<!-- testing testing testing -->
-:::
-
-:::
+__Email:__ adickin3 [(at)]{.mono .l .small} uoregon [(period)]{.mono .l .small} edu
 
 
-__Email:__ adickin3 _ampersat_ uoregon _period_ edu
 
 

@@ -6,48 +6,45 @@ website:
   title: "[ANDREW JOHN DICKINSON]{.title}"
   open-graph:
     locale: es_ES
-    site-name: AJD
+    site-name: ajdickinson
   # site-url: "https://www.quarto.org"
-  favicon: images/forest.svg
+  # favicon: images/forest.svg
+  favicon: images/favicon.svg
   search: false
   navbar:
     background: light
     left:
       - href: index.qmd
         text: "main"
-      # - href: bio.qmd
       - href: research.qmd
       - href: teaching.qmd
-      # - href: contact.qmd
+      - href: contact.qmd
       - href: vita.qmd
     # tools:
     right:
       - icon: github
-        # text: GitHub
         href: https://github.com/ajdickinson
-      # - icon: linkedin
-      #   href: https://www.linkedin.com/in/andrew-dickinson-675266253/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/andrew-dickinson-675266253/
 
   # back-to-top-navigation: true
   page-footer: 
       background: light
       center: 
-        - "© Copyright 2024, Andrew John Dickinson"
+        - "© Copyright 2025, Andrew John Dickinson"
 
 format:
   html: 
     # page-layout: custom
     grid:
-      sidebar-width: 0px
-      body-width: 1600px
-      margin-width: 800px
-      gutter-width: 2.25rem
+      sidebar-width: 35px
+      body-width: 1800px
+      margin-width: 500px
+      gutter-width: 3.5rem
     theme: 
       - styles.scss
     toc: true
     mainfont: Fira Sans Extra Condensed
-    # monofont: Fira Code
     monofont: JetBrains Mono
-    linkcolor: "#81A1C1"
     text-align: 'left'
    
