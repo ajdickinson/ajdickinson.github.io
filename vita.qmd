@@ -35,8 +35,8 @@ __Expertise__: Data Science, Causal Inference, ML, Geospatial Analysis, Data Vis
 
 ## Experience
 
-**Research Assistant** | *Professor Alfredo Burlando* | *University of Oregon*  | _2023-2024_  
-**Research Fellow** | _Center for Health Economics and Policy Studies at San Diego State University_ | _2017-2019_  
+**Research Assistant** | Prof. Alfredo Burlando | *University of Oregon*  | _2023-2024_  
+**Research Fellow** | Center for Health Economics and Policy Studies at San Diego State University | _2017-2019_  
 
 ## Teaching
 
@@ -67,13 +67,13 @@ __Expertise__: Data Science, Causal Inference, ML, Geospatial Analysis, Data Vis
 
 ## Activities
 
-- Presenter at TWEEDS (2025), Western Economic Association International Conference (2019), Association for Public Policy and Management (2018) [poster session]
-- Attendee at Eastern Economics Association conference (2018), Economic Self-Sufficiency Policy Research Institute Workshop (2017)
-- Editor for Undergraduate Research Journal of the College of Arts and Letters (2016)
+- TWEEDS _2025_, Western Economic Association International Conference _2019_, Association for Public Policy and Management _2018_ (poster session)
+<!-- - Attendee at Eastern Economics Association conference _2018_, Economic Self-Sufficiency Policy Research Institute Workshop _2017_ -->
+<!-- - Editor for Undergraduate Research Journal of the College of Arts and Letters _2016_ -->
 
 ## Professional Service
 
-- Referee for **Economic Inquiry** (2022)
+- Referee for *Economic Inquiry* (2022)
 
 ## Software
 
@@ -88,7 +88,7 @@ __Design__: Markdown, Quarto, $\LaTeX$, typst, CSS, Shiny
 
 ::: {.column width="50%"}
 
-__Ed Rubin__  (Co-Chair)
+__Ed Rubin__  (Co-Chair)  
 Assistant Professor  
 Department of Economics  
 University of Oregon  
@@ -102,7 +102,7 @@ Amazon
 :::
 
 ::: {.column width="50%"}
-__Glen R. Waddell__  (Co-Chair)
+__Glen R. Waddell__  (Co-Chair)  
 Professor  
 Department of Economics  
 University of Oregon  

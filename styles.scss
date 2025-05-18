@@ -18,6 +18,8 @@ $title-size: 28pt;
 $white: #fff;
 $night: #2E3440;
 $dark-gray: #3b4252;
+$medium-gray: #4c566a;
+$light-gray: #d8dee9;
 $snowstorm:#ECEFF4;
 $frost-1: #8FBCBB;
 $frost-2: #88C0D0;
@@ -57,6 +59,27 @@ $code-block-bg: $snowstorm;
 
 /*-- scss:rules --*/
 
+/* Sidebar */
+.sidebar nav[role=doc-toc] ul>li>a {
+  color: $medium-gray !important;
+}
+.sidebar nav[role=doc-toc] ul>li>a:hover {
+  color: $purple !important;
+}
+.sidebar nav[role=doc-toc] ul>li>a.active {
+  color: $purple !important;
+}
+// sidebar title weight
+.sidebar h2#toc-title {font-weight: 300;}
+// .sidebar {font-family: $font-family-monospace;}
+
+/* Tabs */
+.tab-content {
+  border-left: #fff;
+  border-right: #fff;
+  border-top: #fff;
+  border-bottom: #fff;
+}
 
 // Drop search button
 .navbar-search {

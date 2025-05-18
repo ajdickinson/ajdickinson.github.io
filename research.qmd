@@ -4,8 +4,7 @@ toc: false
 ---
 
 
-### [published]{.mono .l}
-
+#### Published
 ---
 
 [**Productivity losses in the transition to Daylight Saving Time: Evidence from hourly GitHub activity**](https://doi.org/10.1016/j.jebo.2024.106749)  
@@ -28,8 +27,7 @@ _Abstract:_
 > E-Verify laws, which have been adopted by 23 states, require employers to verify whether new employees are eligible to legally work prior to employment. This study explores the impact of state E-Verify laws on crime. Using data from the 2004–2015 National Incident Based Reporting System, the authors find that the enactment of E-Verify is associated with a 7% reduction in property crime incidents involving Hispanic arrestees. This finding was strongest for universal E-Verify mandates that extend to private employers and its external validity bolstered by evidence from the Uniform Crime Reports. Supplemental analyses from the Current Population Survey suggest two mechanisms to explain this result: E-Verify-induced increases in the employment of low-skilled natives of Hispanic descent and out-migration of younger Hispanics. Findings show no evidence that arrests were displaced to nearby jurisdictions without E-Verify or that violent crime or arrests of African Americans were affected by E-Verify laws. The magnitudes of the estimates suggest that E-Verify laws averted $491 million in property crime costs to the United States.
 
 
-### [in progress]{.mono .l}
-
+#### In Progress
 ---
 
 **Environmental prediction for diverse contexts**: Insights for contemporary PM2.5 research and policy  

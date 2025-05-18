@@ -3,7 +3,8 @@ title: "teaching"
 toc: false
 ---
 
-## [Instructor]{.mono .l}
+#### Instructor
+---
 
 [EC 320 -- Introduction to Econometrics I]{.class-header}  
 University of Oregon  
@@ -21,7 +22,8 @@ GitHub repos: [Summer 2021](https://github.com/ajdickinson/EC330Su21), [Fall 202
 
 <br>
 
-## [Teaching Assistant]{.mono .l}
+#### Teaching Assistant
+---
 
 EC 490 -- Development Economics: Winter 2025  
 EC 425 -- Masters Econometrics (Causal Inference Methods): Spring 2021  
