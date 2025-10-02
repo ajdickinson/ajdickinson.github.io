@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025/Homebrew)  (format=lualatex 2025.3.7)  18 MAY 2025 13:35
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025/Homebrew)  (format=lualatex 2025.3.7)  2 OCT 2025 10:30
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/adick/Documents/website/vita/dickinson-cv.tex
@@ -547,10 +547,10 @@ Here is how much of LuaTeX's memory you used:
  83 fonts using 80488695 bytes
  74i,5n,113p,373b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </System/Library/Fonts/Supplemental/Charter.ttc></Users/adick/Library/Fonts/FiraSansCondensed-LightItalic.ttf></Users/adick/Library/Fonts/FiraSansCondensed-Regular.ttf></Users/adick/texmf/fonts/opentype/public/fontawesome5/FontAwesome5Brands-Regular-400.otf></Users/adick/Library/Fonts/FiraSansCondensed-Light.ttf>
-Output written on dickinson-cv.pdf (2 pages, 50523 bytes).
+Output written on dickinson-cv.pdf (2 pages, 50293 bytes).
 
-PDF statistics: 70 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+PDF statistics: 69 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

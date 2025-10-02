@@ -9,19 +9,20 @@ about:
 ---
 
 
-## Economist  | Data Scientist 
+## Andrew John Dickinson
 
-I am an applied microeconomist, employing econometric and data science tools to address problems in environmental, health, and labor economics practicing both causal inference and machine learning techniques. 
-<!-- When I am away from my desk, you may find me running, biking, bouldering, or spending time enjoying the outdoors. -->
+I am an economist with expertise in causal inference, machine learning, and applied econometrics.
 
-I will receive my PhD in Economics from the University of [Oregon]{.note .red} in June 2025. 
+I received my PhD in Economics from the University of Oregon in September 2025, where I studied applied microeconometrics with a focus on environmental and labor economics. Prior to graduate school, I worked in crime economics research, and studied Economics at San Diego State University 
+
+Currently on the job market 2025-2026.
 
 <!-- [[CV](vita.qmd)] -->
 
 
 <!-- [Contact](contact.qmd) -->
 
-__Email:__ adickin3 [(at)]{.mono .l .small} uoregon [(period)]{.mono .l .small} edu
+__Email:__ adickin3 [(at)]{.mono .l .small} uoregon [(dot)]{.mono .l .small} edu
 
 
 
