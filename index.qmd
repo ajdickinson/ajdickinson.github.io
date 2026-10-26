@@ -15,14 +15,13 @@ I am an economist with expertise in causal inference, machine learning, and appl
 
 I received my PhD in Economics from the University of Oregon in September 2025, where I studied applied microeconometrics with a focus on environmental and labor economics. Prior to graduate school, I worked in crime economics research, and studied Economics at San Diego State University.
 
-Currently on the job market 2025-2026.
 
 <!-- [[CV](vita.qmd)] -->
 
 
 <!-- [Contact](contact.qmd) -->
 
-__Email:__ adickin3 [(at)]{.mono .l .small} uoregon [(dot)]{.mono .l .small} edu
+__Email:__ ajdickinson.3 [(at)]{.mono .l .small} gmail [(dot)]{.mono .l .small} com
 
 
 

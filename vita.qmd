@@ -2,11 +2,10 @@
 title: "cv"
 ---
 
-[`pdf download `](vita/dickinson-cv.pdf)
 
 ## Education
 
-Ph.D., Economics, University of Oregon (expected 2025)  
+Ph.D., Economics, University of Oregon (2025)  
 M.S., Economics, University of Oregon (2021)  
 M.A., Economics, San Diego State University (2019)  
 B.A., Economics, San Diego State University (2017)  
@@ -61,7 +60,7 @@ __Expertise__: Data Science, Causal Inference, ML, Geospatial Analysis, Data Vis
 ## Awards
 - Kleinsorge Fellowship (2023)
 - Core Exam Completion Award (2020)
-- Graduate Teaching Fellowship (2019 - present)
+- Graduate Teaching Fellowship (2019-2025)
 - McCuen Endowed Economics Scholarship (2017, 2018)
 - Center for Public Economics Paper Award (2018)
 
@@ -115,11 +114,8 @@ IZA Research Fellow
 
 
 ## Contact
-**Address:**  
-Department of Economics  
-Prince Lucian Campbell Hall  
-1285 University of Oregon  
-Eugene, OR 97403-1285  
 
-**Email:** adickin3 at uoregon period edu  
-**Github:** ajdickinson  
+**Location:** Austin, TX  
+**Email:** ajdickinson.3 at gmail period com  
+**GitHub:** [ajdickinson](https://github.com/ajdickinson)  
+**LinkedIn:** [ajdickinson3](https://www.linkedin.com/in/ajdickinson3)

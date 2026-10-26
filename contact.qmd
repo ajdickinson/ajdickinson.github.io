@@ -2,18 +2,7 @@
 title: "contact"
 ---
 
-__Email:__ adickin3 [(at)]{.mono .l .small} uoregon [(dot)]{.mono .l .small} edu  
-__GitHub:__ [ajdickinson](https://github.com/ajdickinson)
-
-
-```{R}
-#| echo: false
-#| out-width: "90%"
-pacman::p_load(leaflet, leaflet.extras)
-
-leaflet() %>%
-  addMarkers(lng = -123.0805256, lat = 44.0442725, popup = "Me") %>%
-  setView(lng = -123.06, lat = 44.05, zoom = 12) %>%
-  addProviderTiles(providers$CartoDB.Positron)
-
-```
+__Email:__ ajdickinson.3 [(at)]{.mono .l .small} gmail [(dot)]{.mono .l .small} com  
+__GitHub:__ [ajdickinson](https://github.com/ajdickinson)  
+__LinkedIn:__ [ajdickinson3](https://www.linkedin.com/in/ajdickinson3)  
+__Location:__ Austin, TX
