@@ -6,7 +6,7 @@ website:
   site-url: "https://ajdickinson.github.io/"
   title: "ANDREW JOHN DICKINSON"
   open-graph:
-    locale: es_ES
+    locale: en_US
     site-name: ajdickinson
   # site-url: "https://www.quarto.org"
   # favicon: images/forest.svg

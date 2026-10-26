@@ -20,7 +20,7 @@ __Expertise__: Data Science, Causal Inference, ML, Geospatial Analysis, Data Vis
 ## Publications
 
 - "Productivity losses in the transition to Daylight Saving Time: Evidence from hourly GitHub activity." (2024). **Journal of Economic Behavior & Organization**. With [Glen R. Waddell](https://glenwaddell.com). [DOI: 10.1016/j.jebo.2024.106749](https://doi.org/10.1016/j.jebo.2024.106749)  
-- "The Effect of E-Verify Laws on Crime." (2021). **Industrial Labor Relations Review**. With [Brandyn F. Churchill](https://brandynchurchill.com/), [Taylor Mackay](https://tmackay.io/), & [Joseph J. Sabia](https://economics.sdsu.edu/faculty/sabia). [DOI: 10.1177/00197939211044449](https://doi.org/10.1177/00197939211044449)
+- "The Effect of E-Verify Laws on Crime." (2022). **Industrial and Labor Relations Review**. With [Brandyn F. Churchill](https://brandynchurchill.com/), [Taylor Mackay](https://tmackay.io/), & [Joseph J. Sabia](https://economics.sdsu.edu/faculty/sabia). [DOI: 10.1177/00197939211044449](https://doi.org/10.1177/00197939211044449)
 
 ## Works in Progress
 
@@ -53,7 +53,7 @@ __Expertise__: Data Science, Causal Inference, ML, Geospatial Analysis, Data Vis
 - EC 421 -- Introduction to Econometrics II: Fall 2020, Spring 2021, [Fall 2023](https://github.com/ajdickinson/EC421F23_lab), Fall 2024 (Undergraduate)  
 - EC 320 -- Introduction to Econometrics I: Winter 2024, Spring 2025 (Undergraduate)  
 - EC 330 -- Urban and Regional Economic Problems: Spring 2022 (Undergraduate)  
-- EC 311 -- Intermediate Microeconomic Theory: Spring 2021: Spring 2020 (Undergraduate)  
+- EC 311 -- Intermediate Microeconomic Theory: Spring 2020, Spring 2021 (Undergraduate)  
 - EC 202 -- Introduction to Economic Analysis: Macroeconomics: Winter 2020 (Undergraduate)  
 - EC 201 -- Introduction to Economic Analysis: Microeconomics: Winter 2021, Winter 2022 (Undergraduate)  
 - EC 101 -- Contemporary Economic Issues: Fall 2019 (Undergraduate)  

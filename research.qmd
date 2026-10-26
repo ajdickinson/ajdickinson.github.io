@@ -9,7 +9,7 @@ toc: false
 
 [**Productivity losses in the transition to Daylight Saving Time: Evidence from hourly GitHub activity**](https://doi.org/10.1016/j.jebo.2024.106749)  
 
-[Andrew Dickinson](ajdickinson.github.io) and [Glen R. Waddell](https://www.glenwaddell.com/). 2024. _Journal of Economic Behavior & Organization_.
+[Andrew Dickinson](https://ajdickinson.github.io) and [Glen R. Waddell](https://www.glenwaddell.com/). 2024. _Journal of Economic Behavior & Organization_.
 
 _Abstract:_  
 
@@ -20,7 +20,7 @@ _Abstract:_
 
 [**The Effect of E-Verify Laws on Crime**](https://doi.org/10.1177/00197939211044449)
 
-[Brandon Churchill](https://brandynchurchill.com/), [Andrew Dickinson](ajdickinson.github.io), [Taylor Mackay](https://tmackay.io/), and [Joseph J. Sabia](https://economics.sdsu.edu/faculty/sabia). 2022. _Industrial and Labor Relations Review_, 75(5).
+[Brandyn F. Churchill](https://brandynchurchill.com/), [Andrew Dickinson](https://ajdickinson.github.io), [Taylor Mackay](https://tmackay.io/), and [Joseph J. Sabia](https://economics.sdsu.edu/faculty/sabia). 2022. _Industrial and Labor Relations Review_, 75(5).
 
 _Abstract:_  
 
@@ -32,7 +32,7 @@ _Abstract:_
 
 **Environmental prediction for diverse contexts**: Insights for contemporary PM2.5 research and policy  
 
-[Andrew Dickinson](ajdickinson.github.io) and [Ed Rubin](edrub.in)
+[Andrew Dickinson](https://ajdickinson.github.io) and [Ed Rubin](https://edrub.in)
 
 _Abstract:_  
 
