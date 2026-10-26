@@ -1,1 +1,11 @@
 /.quarto/
+/_freeze/
+/_site/
+.DS_Store
+node_modules/
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
