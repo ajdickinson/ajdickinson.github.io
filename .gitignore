@@ -9,3 +9,5 @@ node_modules/
 *.fdb_latexmk
 *.synctex.gz
 *.out
+
+**/*.quarto_ipynb
